@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3be0a7e9-220a-4655-9efe-b7aba4626cf9">
-  <name>RA_Divisions</name>
+  <name>RA_AdditionalFields</name>
   <synonym>
     <key>ru</key>
-    <value>Divisions</value>
+    <value>Дополнительные поля справочников</value>
   </synonym>
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:ConfigurationExtension">
@@ -24,7 +24,7 @@
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="c69fc4ca-352b-46a5-88e2-8ece00f11a68"/>
   <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="c61ab034-e812-4704-b099-a518e86cbe50"/>
   <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
-  <namePrefix>RA_Divisions</namePrefix>
+  <namePrefix>RA_AdditionalFields</namePrefix>
   <configurationExtensionCompatibilityMode>8.3.21</configurationExtensionCompatibilityMode>
   <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
   <defaultRunMode>ManagedApplication</defaultRunMode>

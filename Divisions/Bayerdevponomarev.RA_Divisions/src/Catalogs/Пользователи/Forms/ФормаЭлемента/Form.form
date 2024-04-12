@@ -4421,7 +4421,7 @@ associated with the 1C:Enterprise user.</value>
   </autoCommandBar>
   <handlers xsi:type="form:EventHandlerExtension">
     <event>OnCreateAtServer</event>
-    <name>RA_DivisionsПриСозданииНаСервереПосле</name>
+    <name>RA_AdditionalFieldsПриСозданииНаСервереПосле</name>
     <callType>After</callType>
   </handlers>
   <excludedCommands>WriteAndClose</excludedCommands>

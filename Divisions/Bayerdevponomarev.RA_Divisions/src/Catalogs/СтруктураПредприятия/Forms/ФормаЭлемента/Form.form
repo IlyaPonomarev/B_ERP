@@ -896,7 +896,7 @@
   </autoCommandBar>
   <handlers xsi:type="form:EventHandlerExtension">
     <event>OnCreateAtServer</event>
-    <name>RA_DivisionsПриСозданииНаСервереПосле</name>
+    <name>RA_AdditionalFieldsПриСозданииНаСервереПосле</name>
     <callType>After</callType>
   </handlers>
   <width>90</width>

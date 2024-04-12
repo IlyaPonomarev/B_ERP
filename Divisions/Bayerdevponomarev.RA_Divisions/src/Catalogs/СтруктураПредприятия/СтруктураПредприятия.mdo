@@ -14,7 +14,7 @@
   </extension>
   <useStandardCommands>true</useStandardCommands>
   <attributes uuid="22b623c1-7b01-4bcd-ba78-331614a016b7">
-    <name>RA_Divisions_Division</name>
+    <name>RA_AdditionalFields_Division</name>
     <synonym>
       <key>ru</key>
       <value>Division</value>

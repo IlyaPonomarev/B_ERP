@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5b3aa942-48b8-495f-9ecc-d8bb5dda108a" extendedConfigurationObject="cffbf533-11c6-4206-9b8b-f7355cb63fd8">
+  <producedTypes>
+    <objectType typeId="ceb50e73-6b3d-4567-a550-75a9643ca0fd" valueTypeId="69efc16a-198e-407e-b949-f56766b987f0"/>
+    <refType typeId="14ecd3db-9968-4de4-b2fd-a3e7d6def87b" valueTypeId="c4675a13-3105-4b25-987d-19b9633000f2"/>
+    <selectionType typeId="29adcc2f-3667-4524-a61c-ece6b09ed731" valueTypeId="eeb6a341-30bc-4053-8dc6-d8eb7447c5de"/>
+    <listType typeId="e6dfe493-1799-47b6-94fc-2a45d9131d01" valueTypeId="da57bcdb-1016-4d7f-940f-c82853e1b89e"/>
+    <managerType typeId="c18e7ebc-76ff-4a85-a9ff-6bc0eb75a13f" valueTypeId="7717a407-b090-4624-ab91-a30fb41f8ecc"/>
+  </producedTypes>
+  <name>Пользователи</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="de97e4b0-43df-4421-bb4d-f7d26c62c080">
+    <name>RA_Divisions_Division</name>
+    <synonym>
+      <key>ru</key>
+      <value>Division</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НаправленияДеятельности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="9732f90f-5dd0-4e42-8bd4-dbc6b68579ac" extendedConfigurationObject="cb92dc2e-6053-4233-a408-4464514b1257">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

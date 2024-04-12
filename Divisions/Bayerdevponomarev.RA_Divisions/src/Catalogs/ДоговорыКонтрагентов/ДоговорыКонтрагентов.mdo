@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c0e6895a-580f-42e6-896d-4b84227ca79b" extendedConfigurationObject="3404cb9a-92ea-42b9-9086-ad481dbc27d7">
+  <producedTypes>
+    <objectType typeId="d88a3432-0878-48da-9b0c-f55cb05cbaff" valueTypeId="0d6b8047-cee0-4288-9964-8550fdbe2823"/>
+    <refType typeId="3e5adcf7-40f1-45ef-8ecd-ec1826331849" valueTypeId="1ffb7493-668b-4a8d-97ec-33a49f5ed5d9"/>
+    <selectionType typeId="1272078a-3635-478e-a548-6a20cc4a65b9" valueTypeId="d9babe01-c186-4b38-bdf4-f62ca26f2f82"/>
+    <listType typeId="641d1a60-24fc-4cf9-bcb7-4f57ccb8c338" valueTypeId="7d973edf-c99c-4c1c-9158-8a65a0095480"/>
+    <managerType typeId="5bc16205-9865-4806-b2b5-0521d9b80575" valueTypeId="304489f5-808d-4994-a526-be9c94687c6f"/>
+  </producedTypes>
+  <name>ДоговорыКонтрагентов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="b94a532d-404e-4f41-8904-79a40f0bb759">
+    <name>RA_Divisions_Division</name>
+    <synonym>
+      <key>ru</key>
+      <value>Division</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НаправленияДеятельности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="5483c9f1-7cc0-4c6b-afe6-9f69a1445575" extendedConfigurationObject="40b52a5b-1845-4d3e-a33e-3888d0dec1ab">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

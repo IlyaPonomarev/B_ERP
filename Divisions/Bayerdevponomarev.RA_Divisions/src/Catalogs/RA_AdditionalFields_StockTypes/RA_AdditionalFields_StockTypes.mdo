@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b087619c-0df0-4b96-a8f6-dc77bcc44ed6">
+  <producedTypes>
+    <objectType typeId="8bf718fd-852e-41c7-997f-790e8c845556" valueTypeId="ef5c6968-60cf-4dba-adf2-06e38b960f82"/>
+    <refType typeId="94676ccb-25c8-4306-9e3a-2ccee5c08073" valueTypeId="125e6938-5e97-4c0e-93e8-e077314ed261"/>
+    <selectionType typeId="7a6093a8-1136-4549-916e-e58681e3f4d6" valueTypeId="23b16ba7-a35e-4a65-a9fe-3732c0b41a66"/>
+    <listType typeId="061b57ba-87a7-404b-b0c6-580c71c2cdd6" valueTypeId="d362ac90-1e30-4fc2-8321-224fab1284b2"/>
+    <managerType typeId="436af637-1d17-4723-a9ed-310a4af3938a" valueTypeId="1b1a6898-83ba-490a-982e-3fc9bcda7986"/>
+  </producedTypes>
+  <name>RA_AdditionalFields_StockTypes</name>
+  <synonym>
+    <key>ru</key>
+    <value>Stock types</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Stock type</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Stock type</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Stock types</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Stock types</value>
+  </extendedListPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

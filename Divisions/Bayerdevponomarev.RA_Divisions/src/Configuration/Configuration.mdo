@@ -62,6 +62,7 @@
   <commonPictures>CommonPicture.ПодписанЗашифрованСостояния</commonPictures>
   <commonPictures>CommonPicture.Предупреждение</commonPictures>
   <commonPictures>CommonPicture.Предупреждение32</commonPictures>
+  <catalogs>Catalog.RA_AdditionalFields_StockTypes</catalogs>
   <catalogs>Catalog.RA_AdditionalFields_TradingPartners</catalogs>
   <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
   <catalogs>Catalog.НаправленияДеятельности</catalogs>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2be86f64-13e7-4184-9be7-51bc492747a2">
+  <producedTypes>
+    <managerType typeId="131a7ed2-ddf0-4376-a883-8669c86a2e65" valueTypeId="9aa4c147-f157-4d1b-a944-524083a698be"/>
+    <valueManagerType typeId="50f17e61-ed96-4791-b100-639a0629e12c" valueTypeId="e886cb02-8725-4082-9be2-324b03b37810"/>
+    <valueKeyType typeId="b88cabe3-ca36-41ae-9179-db40f2cdaaa0" valueTypeId="9b611ab7-5c1a-4cb6-bd84-971d85a0d914"/>
+  </producedTypes>
+  <name>RA_AdditionalFields_ГФУ_ProfitCenterПоУмолчанию</name>
+  <synonym>
+    <key>ru</key>
+    <value>ГФУ Profit Center по умолчанию (Bayer)</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ГруппыФинансовогоУчетаНоменклатуры</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

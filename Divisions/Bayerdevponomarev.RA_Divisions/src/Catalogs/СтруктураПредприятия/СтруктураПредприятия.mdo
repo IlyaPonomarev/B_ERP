@@ -59,10 +59,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="f410b2f4-b7f5-41ae-8d81-dab71013763e">
-    <name>RA_AdditionalFields_ГФУ_ProfitCentre</name>
+    <name>RA_AdditionalFields_ГФУ_ProfitCenter</name>
     <synonym>
       <key>ru</key>
-      <value>ГФУ profit centre</value>
+      <value>ГФУ profit center</value>
     </synonym>
     <type>
       <types>CatalogRef.ГруппыФинансовогоУчетаНоменклатуры</types>

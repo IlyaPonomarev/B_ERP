@@ -28,6 +28,51 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="9ecd14f6-a3ee-4ae9-ab1c-971c03aa0317">
+    <name>RA_AdditionalFields_ReportingUnit</name>
+    <synonym>
+      <key>ru</key>
+      <value>Reporting unit</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.RA_AdditionalFields_ReportingUnits</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ce84957e-6cdd-4794-81f4-e7c1ac9e6933">
+    <name>RA_AdditionalFields_StrategicBusinessEntity</name>
+    <synonym>
+      <key>ru</key>
+      <value>Strategic business entity</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.RA_AdditionalFields_StrategicBusinessEntities</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f410b2f4-b7f5-41ae-8d81-dab71013763e">
+    <name>RA_AdditionalFields_ГФУ_ProfitCentre</name>
+    <synonym>
+      <key>ru</key>
+      <value>ГФУ profit centre</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГруппыФинансовогоУчетаНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="ffa9fdb0-8b98-4cc6-8cb7-c7ef94bf1ed0" extendedConfigurationObject="ca96cd59-3219-4a07-86d2-7d0f10d6008c">
     <name>ФормаЭлемента</name>
     <objectBelonging>Adopted</objectBelonging>

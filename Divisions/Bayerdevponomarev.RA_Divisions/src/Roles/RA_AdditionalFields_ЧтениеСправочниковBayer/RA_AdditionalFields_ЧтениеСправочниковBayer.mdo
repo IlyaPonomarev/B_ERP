@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84773744-9ae0-4835-b5ca-d1d86f0a3835">
+  <name>RA_AdditionalFields_ЧтениеСправочниковBayer</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение справочников Bayer</value>
+  </synonym>
+</mdclass:Role>

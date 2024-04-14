@@ -62,8 +62,13 @@
   <commonPictures>CommonPicture.ПодписанЗашифрованСостояния</commonPictures>
   <commonPictures>CommonPicture.Предупреждение</commonPictures>
   <commonPictures>CommonPicture.Предупреждение32</commonPictures>
+  <roles>Role.RA_AdditionalFields_ДобавлениеИзменениеСправочниковBayer</roles>
+  <roles>Role.RA_AdditionalFields_ЧтениеСправочниковBayer</roles>
+  <catalogs>Catalog.RA_AdditionalFields_ReportingUnits</catalogs>
   <catalogs>Catalog.RA_AdditionalFields_StockTypes</catalogs>
+  <catalogs>Catalog.RA_AdditionalFields_StrategicBusinessEntities</catalogs>
   <catalogs>Catalog.RA_AdditionalFields_TradingPartners</catalogs>
+  <catalogs>Catalog.ГруппыФинансовогоУчетаНоменклатуры</catalogs>
   <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
   <catalogs>Catalog.НаправленияДеятельности</catalogs>
   <catalogs>Catalog.Партнеры</catalogs>

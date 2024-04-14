@@ -10,7 +10,7 @@
   <name>RA_AdditionalFields_StockTypes</name>
   <synonym>
     <key>ru</key>
-    <value>Stock types</value>
+    <value>Stock types (Bayer)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
@@ -18,19 +18,19 @@
   <fullTextSearch>Use</fullTextSearch>
   <objectPresentation>
     <key>ru</key>
-    <value>Stock type</value>
+    <value>Stock type (Bayer)</value>
   </objectPresentation>
   <extendedObjectPresentation>
     <key>ru</key>
-    <value>Stock type</value>
+    <value>Stock type (Bayer)</value>
   </extendedObjectPresentation>
   <listPresentation>
     <key>ru</key>
-    <value>Stock types</value>
+    <value>Stock types (Bayer)</value>
   </listPresentation>
   <extendedListPresentation>
     <key>ru</key>
-    <value>Stock types</value>
+    <value>Stock types (Bayer)</value>
   </extendedListPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>

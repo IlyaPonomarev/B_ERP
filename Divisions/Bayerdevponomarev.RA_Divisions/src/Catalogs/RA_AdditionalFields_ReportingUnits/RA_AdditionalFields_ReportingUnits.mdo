@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="045e6feb-204c-443e-9be7-55bce4473c78">
+  <producedTypes>
+    <objectType typeId="dea0f17c-9bc2-4278-995a-ec54b4e14201" valueTypeId="dfd7ad58-a7ed-478c-aa03-699bb0fb559e"/>
+    <refType typeId="d2de81ac-c7e8-4714-9243-dcb7a2e946d9" valueTypeId="f4ca7b17-8745-4c1b-a164-1c34986f84fe"/>
+    <selectionType typeId="c20481d9-6a21-411d-8e35-5fe04f2615ac" valueTypeId="4cdbbd02-0d22-465f-9cc8-cf0766373434"/>
+    <listType typeId="8d2bc8f1-2384-4385-adad-60789325a0e1" valueTypeId="17b25c25-d947-45d7-a186-426dc1afde57"/>
+    <managerType typeId="c43f1991-cb2c-49be-b533-89f7f42590b9" valueTypeId="81624943-639f-4b28-a9cf-6cdc3d9b0cf0"/>
+  </producedTypes>
+  <name>RA_AdditionalFields_ReportingUnits</name>
+  <synonym>
+    <key>ru</key>
+    <value>Reporting units (Bayer)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.RA_AdditionalFields_ReportingUnits.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.RA_AdditionalFields_ReportingUnits.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Reporting unit (Bayer)</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Reporting unit (Bayer)</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Reporting units (Bayer)</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Reporting units (Bayer)</value>
+  </extendedListPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

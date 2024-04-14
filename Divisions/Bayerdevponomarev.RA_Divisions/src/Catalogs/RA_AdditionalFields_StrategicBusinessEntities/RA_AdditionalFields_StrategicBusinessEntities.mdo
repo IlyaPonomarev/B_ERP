@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6ff338c8-e1a3-4f7e-bb3a-0bc73a6d4087">
+  <producedTypes>
+    <objectType typeId="22bc46f6-147d-4dbf-83a7-63ae2d4b549b" valueTypeId="572671fe-7c44-4b02-ad68-7903168c588e"/>
+    <refType typeId="d14e335e-c80e-425b-8e7d-135b72704310" valueTypeId="265bfb71-7b79-416e-8884-0d75db14c737"/>
+    <selectionType typeId="1552b38e-e994-45bc-895c-b36329196842" valueTypeId="ea78c9ed-310a-4e63-af2d-7fbbefabf7b1"/>
+    <listType typeId="4de942ca-7110-41bd-8c6a-ec0a8691117b" valueTypeId="c4d33085-d475-4073-be77-ef07107cd50f"/>
+    <managerType typeId="2e1bb944-a8ff-4743-a130-105a475a0cc7" valueTypeId="3cb98c23-1768-4891-8719-b07008a02645"/>
+  </producedTypes>
+  <name>RA_AdditionalFields_StrategicBusinessEntities</name>
+  <synonym>
+    <key>ru</key>
+    <value>Strategic business entities (Bayer)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.RA_AdditionalFields_StrategicBusinessEntities.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.RA_AdditionalFields_StrategicBusinessEntities.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Strategic Business Entity (Bayer)</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Strategic Business Entity (Bayer)</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Strategic business entities (Bayer)</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Strategic business entities (Bayer)</value>
+  </extendedListPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

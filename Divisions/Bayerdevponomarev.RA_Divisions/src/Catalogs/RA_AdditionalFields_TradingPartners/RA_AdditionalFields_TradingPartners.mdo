@@ -98,19 +98,19 @@
   <fullTextSearch>Use</fullTextSearch>
   <objectPresentation>
     <key>ru</key>
-    <value>Trading partner</value>
+    <value>Trading partner (Bayer)</value>
   </objectPresentation>
   <extendedObjectPresentation>
     <key>ru</key>
-    <value>Trading partner</value>
+    <value>Trading partner (Bayer)</value>
   </extendedObjectPresentation>
   <listPresentation>
     <key>ru</key>
-    <value>Trading partners</value>
+    <value>Trading partners (Bayer)</value>
   </listPresentation>
   <extendedListPresentation>
     <key>ru</key>
-    <value>Trading partner</value>
+    <value>Trading partners (Bayer)</value>
   </extendedListPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>

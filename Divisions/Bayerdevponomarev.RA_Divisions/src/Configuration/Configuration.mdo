@@ -68,9 +68,6 @@
   <commonPictures>CommonPicture.Предупреждение32</commonPictures>
   <roles>Role.RA_AdditionalFields_ДобавлениеИзменениеСправочниковBayer</roles>
   <roles>Role.RA_AdditionalFields_ЧтениеСправочниковBayer</roles>
-  <commonCommands>CommonCommand.ЗадачиПоПредмету</commonCommands>
-  <commonCommands>CommonCommand.ИсторияИзменений</commonCommands>
-  <commonCommands>CommonCommand.МоиЗаметкиПоПредмету</commonCommands>
   <constants>Constant.RA_AdditionalFields_ГФУ_ProfitCenterПоУмолчанию</constants>
   <catalogs>Catalog.RA_AdditionalFields_ReportingUnits</catalogs>
   <catalogs>Catalog.RA_AdditionalFields_StockTypes</catalogs>
@@ -97,5 +94,4 @@
   <enums>Enum.ТипыСкладов</enums>
   <enums>Enum.ХозяйственныеОперации</enums>
   <enums>Enum.ЮрФизЛицо</enums>
-  <informationRegisters>InformationRegister.ПравилаУточненияСчетовВМеждународномУчете</informationRegisters>
 </mdclass:Configuration>

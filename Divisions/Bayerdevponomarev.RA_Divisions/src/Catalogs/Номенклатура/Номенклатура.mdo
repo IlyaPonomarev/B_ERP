@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f1512a49-f4ed-4ff5-98f6-7fb27d5e58de" extendedConfigurationObject="fc59acc3-f1f7-4e3f-96da-e580f2c5a88f">
+  <producedTypes>
+    <objectType typeId="c0cea7d1-90ec-489a-9fa9-b4f4372566dd" valueTypeId="0f5f2ef4-34ea-479b-9067-ded2a8aa277d"/>
+    <refType typeId="17f5cedb-53d4-436e-9589-cd491c74c9ea" valueTypeId="678411ba-71f9-4cec-9a24-145c8e029765"/>
+    <selectionType typeId="cb82cf5e-2693-4306-bb65-442f1b91fd3e" valueTypeId="214b3d91-ee08-4a2b-95ce-2e135fbd18e6"/>
+    <listType typeId="91f8dfd2-d411-4d65-948e-7ef49b661791" valueTypeId="72b9f321-7c92-499d-9d71-43b343468011"/>
+    <managerType typeId="2a81f2be-896a-436e-a475-35f1f1e69249" valueTypeId="80c7f29d-5e87-4115-b128-d734553e6d28"/>
+  </producedTypes>
+  <name>Номенклатура</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="80e80a2a-389a-46ae-9c25-3cdd2b0e606e">
+    <name>RA_AdditionalFields_КодSAP</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код SAP</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="e5861e82-8e32-446c-aec9-0253881776be" extendedConfigurationObject="41c80aa8-4fc3-49dd-82ef-95812b6326fa">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

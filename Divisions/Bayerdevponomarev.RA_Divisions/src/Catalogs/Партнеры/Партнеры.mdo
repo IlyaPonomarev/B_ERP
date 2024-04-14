@@ -28,6 +28,24 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="ed0729a7-94aa-4393-b63e-4b4690899753">
+    <name>RA_AdditionalFields_КодSAP</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код SAP</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="d75d4d0a-875b-400d-ad52-d70614f6e1b6" extendedConfigurationObject="0a9b29ca-f68a-4d5c-8ba0-9a2fb079ab7c">
     <name>ФормаЭлементаРеквизитыКонтрагента</name>
     <objectBelonging>Adopted</objectBelonging>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ac81649e-9fe8-4c1f-b792-599f98b4ed63" extendedConfigurationObject="87a384c3-ab2e-4314-85a9-9834c3877db5">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ac81649e-9fe8-4c1f-b792-599f98b4ed63" extendedConfigurationObject="87a384c3-ab2e-4314-85a9-9834c3877db5">
   <producedTypes>
     <objectType typeId="10b6ddc0-0fb0-461a-ae43-584b83909d79" valueTypeId="bdf3704c-a89b-4e27-a7b0-e1ba9a7aeb0c"/>
     <refType typeId="b04a180c-21a7-4e5e-9166-c597a3561f4e" valueTypeId="6146384c-a19e-4914-927d-43000ef33268"/>
@@ -13,4 +13,30 @@
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
   </extension>
   <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="7cecd703-9cbb-419c-967b-e0070420c055">
+    <name>RA_AdditionalFields_КодSAP</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код SAP</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="cee5aa4a-476f-49fa-bcce-3d7d9e089d3e" extendedConfigurationObject="452386a2-1147-4c88-8ed4-7bd6371636ba">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
 </mdclass:Catalog>

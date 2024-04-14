@@ -31,7 +31,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>ООО &quot;Рациональная Автоматизация&quot;</vendor>
-  <version>2024-04-12 Пономарев И.О.</version>
+  <version>2024-04-14 Пономарев И.О.</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
   <compatibilityMode>8.3.21</compatibilityMode>
@@ -43,7 +43,11 @@
     </extension>
     <languageCode>ru</languageCode>
   </languages>
+  <styleItems>StyleItem.ГиперссылкаЦвет</styleItems>
   <styleItems>StyleItem.ПоясняющийТекст</styleItems>
+  <styleItems>StyleItem.ТекстИнформационнойНадписи</styleItems>
+  <styleItems>StyleItem.ЦветТекстаНевыбраннойКартинки</styleItems>
+  <styleItems>StyleItem.ЦветФонаВыделения</styleItems>
   <commonPictures>CommonPicture.Внимание16</commonPictures>
   <commonPictures>CommonPicture.ВниманиеКрасный</commonPictures>
   <commonPictures>CommonPicture.ВниманиеСерый</commonPictures>
@@ -64,6 +68,9 @@
   <commonPictures>CommonPicture.Предупреждение32</commonPictures>
   <roles>Role.RA_AdditionalFields_ДобавлениеИзменениеСправочниковBayer</roles>
   <roles>Role.RA_AdditionalFields_ЧтениеСправочниковBayer</roles>
+  <commonCommands>CommonCommand.ЗадачиПоПредмету</commonCommands>
+  <commonCommands>CommonCommand.ИсторияИзменений</commonCommands>
+  <commonCommands>CommonCommand.МоиЗаметкиПоПредмету</commonCommands>
   <constants>Constant.RA_AdditionalFields_ГФУ_ProfitCenterПоУмолчанию</constants>
   <catalogs>Catalog.RA_AdditionalFields_ReportingUnits</catalogs>
   <catalogs>Catalog.RA_AdditionalFields_StockTypes</catalogs>
@@ -72,6 +79,7 @@
   <catalogs>Catalog.ГруппыФинансовогоУчетаНоменклатуры</catalogs>
   <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
   <catalogs>Catalog.НаправленияДеятельности</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Партнеры</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.Склады</catalogs>
@@ -79,12 +87,15 @@
   <enums>Enum.ВариантыВыбытияМаркируемойПродукции</enums>
   <enums>Enum.ВариантыОтправкиЭлектронногоЧекаПокупателю</enums>
   <enums>Enum.ВариантыОтраженияНеотфактурованныхПоставокНУ</enums>
+  <enums>Enum.ВидыЦенностей</enums>
   <enums>Enum.ИсточникиИнформацииОЦенахДляПечати</enums>
   <enums>Enum.НазначенияВидовЦен</enums>
   <enums>Enum.ПорядокОформленияСписанияТоваровПринятыхНаХранение</enums>
   <enums>Enum.ПорядокРасчетов</enums>
   <enums>Enum.СтатусыДействияВидовЦен</enums>
+  <enums>Enum.ТипыНаправленийДеятельности</enums>
   <enums>Enum.ТипыСкладов</enums>
   <enums>Enum.ХозяйственныеОперации</enums>
   <enums>Enum.ЮрФизЛицо</enums>
+  <informationRegisters>InformationRegister.ПравилаУточненияСчетовВМеждународномУчете</informationRegisters>
 </mdclass:Configuration>

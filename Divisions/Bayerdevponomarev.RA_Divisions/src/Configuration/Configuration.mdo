@@ -45,6 +45,8 @@
   </languages>
   <styleItems>StyleItem.ПоясняющийТекст</styleItems>
   <commonPictures>CommonPicture.Внимание16</commonPictures>
+  <commonPictures>CommonPicture.ВниманиеКрасный</commonPictures>
+  <commonPictures>CommonPicture.ВниманиеСерый</commonPictures>
   <commonPictures>CommonPicture.ДлительнаяОперация16</commonPictures>
   <commonPictures>CommonPicture.ЗаполнитьПоШаблону</commonPictures>
   <commonPictures>CommonPicture.ЗаполнитьФорму</commonPictures>
@@ -52,6 +54,7 @@
   <commonPictures>CommonPicture.КоллекцияПиктограммФайлов</commonPictures>
   <commonPictures>CommonPicture.ОбновитьФайлИзФайлаНаДиске</commonPictures>
   <commonPictures>CommonPicture.ОтгрузкаЗапрещена</commonPictures>
+  <commonPictures>CommonPicture.ОтгрузкаРазрешена</commonPictures>
   <commonPictures>CommonPicture.Отчеты</commonPictures>
   <commonPictures>CommonPicture.ПапкаОблачногоСервиса</commonPictures>
   <commonPictures>CommonPicture.ПиктограммыЭлементов</commonPictures>
@@ -59,12 +62,15 @@
   <commonPictures>CommonPicture.ПодписанЗашифрованСостояния</commonPictures>
   <commonPictures>CommonPicture.Предупреждение</commonPictures>
   <commonPictures>CommonPicture.Предупреждение32</commonPictures>
+  <catalogs>Catalog.RA_AdditionalFields_TradingPartners</catalogs>
   <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
   <catalogs>Catalog.НаправленияДеятельности</catalogs>
+  <catalogs>Catalog.Партнеры</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.Склады</catalogs>
   <catalogs>Catalog.СтруктураПредприятия</catalogs>
   <enums>Enum.ВариантыВыбытияМаркируемойПродукции</enums>
+  <enums>Enum.ВариантыОтправкиЭлектронногоЧекаПокупателю</enums>
   <enums>Enum.ВариантыОтраженияНеотфактурованныхПоставокНУ</enums>
   <enums>Enum.ИсточникиИнформацииОЦенахДляПечати</enums>
   <enums>Enum.НазначенияВидовЦен</enums>
@@ -73,4 +79,5 @@
   <enums>Enum.СтатусыДействияВидовЦен</enums>
   <enums>Enum.ТипыСкладов</enums>
   <enums>Enum.ХозяйственныеОперации</enums>
+  <enums>Enum.ЮрФизЛицо</enums>
 </mdclass:Configuration>

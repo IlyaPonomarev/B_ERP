@@ -13,21 +13,6 @@
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
   </extension>
   <useStandardCommands>true</useStandardCommands>
-  <attributes uuid="285d70b5-fcb4-4ec9-b36f-9edd6f300b9b">
-    <name>RA_AdditionalFields_Division</name>
-    <synonym>
-      <key>ru</key>
-      <value>Division</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.НаправленияДеятельности</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="78ca5274-8954-46f3-988e-9283174a1e98">
     <name>RA_AdditionalFields_StockType</name>
     <synonym>

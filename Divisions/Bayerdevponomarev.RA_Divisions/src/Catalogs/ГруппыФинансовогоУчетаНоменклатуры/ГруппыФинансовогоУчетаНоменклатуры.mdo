@@ -31,4 +31,27 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="13442cfd-2982-4e7e-b565-571f36a4cd3a">
+    <name>RA_AdditionalFields_ГФУ_ProfitCenter</name>
+    <synonym>
+      <key>ru</key>
+      <value>Profit center</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГруппыФинансовогоУчетаНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="04d9e47a-4f3f-4727-88f7-9d7a5f9d4068" extendedConfigurationObject="6296828f-cf7e-4992-9575-e5f07038230a">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
 </mdclass:Catalog>

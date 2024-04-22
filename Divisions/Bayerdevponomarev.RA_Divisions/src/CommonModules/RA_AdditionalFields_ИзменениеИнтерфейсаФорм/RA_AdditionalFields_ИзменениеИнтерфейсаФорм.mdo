@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="147e0f9a-f774-4f8c-b5cc-13493fb10144">
+  <name>RA_AdditionalFields_ИзменениеИнтерфейсаФорм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение интерфейса форм</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

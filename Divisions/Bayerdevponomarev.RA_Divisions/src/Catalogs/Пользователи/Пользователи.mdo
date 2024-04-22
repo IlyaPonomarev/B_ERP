@@ -29,10 +29,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="063be121-45b7-4421-9acf-3a7ee28a6594">
-    <name>RA_AdditionalFieldsР_ItsSalesOrganisation</name>
+    <name>RA_AdditionalFields_ItsSalesPurchasingOrganization</name>
     <synonym>
       <key>ru</key>
-      <value>Sales organisation</value>
+      <value>Sales/Purchasing organization</value>
     </synonym>
     <type>
       <types>Boolean</types>

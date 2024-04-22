@@ -31,7 +31,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>ООО &quot;Рациональная Автоматизация&quot;</vendor>
-  <version>2024-04-17 Пономарев И.О.</version>
+  <version>2024-04-22 Пономарев И.О.</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
   <compatibilityMode>8.3.21</compatibilityMode>
@@ -44,9 +44,11 @@
     <languageCode>ru</languageCode>
   </languages>
   <styleItems>StyleItem.ГиперссылкаЦвет</styleItems>
+  <styleItems>StyleItem.ИтогиФон</styleItems>
   <styleItems>StyleItem.ПоясняющийТекст</styleItems>
   <styleItems>StyleItem.ТекстИнформационнойНадписи</styleItems>
   <styleItems>StyleItem.ЦветТекстаНевыбраннойКартинки</styleItems>
+  <styleItems>StyleItem.ЦветТекстаПроблема</styleItems>
   <styleItems>StyleItem.ЦветФонаВыделения</styleItems>
   <commonPictures>CommonPicture.Внимание16</commonPictures>
   <commonPictures>CommonPicture.ВниманиеКрасный</commonPictures>
@@ -56,6 +58,10 @@
   <commonPictures>CommonPicture.ЗаполнитьФорму</commonPictures>
   <commonPictures>CommonPicture.ИнформацияПоНедоступнымПолям</commonPictures>
   <commonPictures>CommonPicture.КоллекцияПиктограммФайлов</commonPictures>
+  <commonPictures>CommonPicture.КоллекцияПиктограммыТренда</commonPictures>
+  <commonPictures>CommonPicture.ЛоготипОсновнойСервисДоставки</commonPictures>
+  <commonPictures>CommonPicture.Набор</commonPictures>
+  <commonPictures>CommonPicture.Наборы</commonPictures>
   <commonPictures>CommonPicture.ОбновитьФайлИзФайлаНаДиске</commonPictures>
   <commonPictures>CommonPicture.ОтгрузкаЗапрещена</commonPictures>
   <commonPictures>CommonPicture.ОтгрузкаРазрешена</commonPictures>
@@ -64,10 +70,15 @@
   <commonPictures>CommonPicture.ПиктограммыЭлементов</commonPictures>
   <commonPictures>CommonPicture.ПодписанЗашифрованЗаголовок</commonPictures>
   <commonPictures>CommonPicture.ПодписанЗашифрованСостояния</commonPictures>
+  <commonPictures>CommonPicture.ПревышениеЗаказа</commonPictures>
   <commonPictures>CommonPicture.Предупреждение</commonPictures>
   <commonPictures>CommonPicture.Предупреждение32</commonPictures>
+  <commonPictures>CommonPicture.СерииНоменклатурыКолонкаСтатусов</commonPictures>
+  <commonPictures>CommonPicture.СостоянияСтрок</commonPictures>
+  <commonPictures>CommonPicture.СтатусыУказанияСерий</commonPictures>
   <roles>Role.RA_AdditionalFields_ДобавлениеИзменениеСправочниковBayer</roles>
   <roles>Role.RA_AdditionalFields_ЧтениеСправочниковBayer</roles>
+  <commonModules>CommonModule.RA_AdditionalFields_ИзменениеИнтерфейсаФорм</commonModules>
   <constants>Constant.RA_AdditionalFields_ГФУ_ProfitCenterПоУмолчанию</constants>
   <catalogs>Catalog.RA_AdditionalFields_ReportingUnits</catalogs>
   <catalogs>Catalog.RA_AdditionalFields_StockTypes</catalogs>
@@ -81,15 +92,23 @@
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.Склады</catalogs>
   <catalogs>Catalog.СтруктураПредприятия</catalogs>
+  <documents>Document.ЗаказКлиента</documents>
+  <documents>Document.ЗаказПоставщику</documents>
+  <documents>Document.ПриобретениеТоваровУслуг</documents>
+  <documents>Document.РеализацияТоваровУслуг</documents>
   <enums>Enum.ВариантыВыбытияМаркируемойПродукции</enums>
   <enums>Enum.ВариантыОтправкиЭлектронногоЧекаПокупателю</enums>
   <enums>Enum.ВариантыОтраженияНеотфактурованныхПоставокНУ</enums>
+  <enums>Enum.ВариантыОформленияПродажи</enums>
   <enums>Enum.ВидыЦенностей</enums>
   <enums>Enum.ИсточникиИнформацииОЦенахДляПечати</enums>
   <enums>Enum.НазначенияВидовЦен</enums>
   <enums>Enum.ПорядокОформленияСписанияТоваровПринятыхНаХранение</enums>
   <enums>Enum.ПорядокРасчетов</enums>
+  <enums>Enum.СпособыДоставки</enums>
   <enums>Enum.СтатусыДействияВидовЦен</enums>
+  <enums>Enum.СтатусыДоговоровКонтрагентов</enums>
+  <enums>Enum.ТипыНалогообложенияНДС</enums>
   <enums>Enum.ТипыНаправленийДеятельности</enums>
   <enums>Enum.ТипыСкладов</enums>
   <enums>Enum.ХозяйственныеОперации</enums>

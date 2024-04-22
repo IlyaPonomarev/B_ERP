@@ -31,6 +31,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="ccb8ef2e-ebf2-4a23-9d9b-7bc51831da8e">
+    <name>RA_AdditionalFields_Division</name>
+    <synonym>
+      <key>ru</key>
+      <value>Division</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НаправленияДеятельности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="e5861e82-8e32-446c-aec9-0253881776be" extendedConfigurationObject="41c80aa8-4fc3-49dd-82ef-95812b6326fa">
     <name>ФормаЭлемента</name>
     <objectBelonging>Adopted</objectBelonging>

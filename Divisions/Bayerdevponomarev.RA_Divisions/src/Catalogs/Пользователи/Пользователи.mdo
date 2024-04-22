@@ -28,6 +28,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="063be121-45b7-4421-9acf-3a7ee28a6594">
+    <name>RA_AdditionalFieldsР_ItsSalesOrganisation</name>
+    <synonym>
+      <key>ru</key>
+      <value>Sales organisation</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="9732f90f-5dd0-4e42-8bd4-dbc6b68579ac" extendedConfigurationObject="cb92dc2e-6053-4233-a408-4464514b1257">
     <name>ФормаЭлемента</name>
     <objectBelonging>Adopted</objectBelonging>

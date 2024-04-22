@@ -79,6 +79,8 @@
   <roles>Role.RA_AdditionalFields_ДобавлениеИзменениеСправочниковBayer</roles>
   <roles>Role.RA_AdditionalFields_ЧтениеСправочниковBayer</roles>
   <commonModules>CommonModule.RA_AdditionalFields_ИзменениеИнтерфейсаФорм</commonModules>
+  <commonModules>CommonModule.РасчетСебестоимостиПроведениеДокументов</commonModules>
+  <commonModules>CommonModule.РеализацияТоваровУслугЛокализация</commonModules>
   <constants>Constant.RA_AdditionalFields_ГФУ_ProfitCenterПоУмолчанию</constants>
   <catalogs>Catalog.RA_AdditionalFields_ReportingUnits</catalogs>
   <catalogs>Catalog.RA_AdditionalFields_StockTypes</catalogs>

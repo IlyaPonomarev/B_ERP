@@ -82,6 +82,7 @@
   <commonModules>CommonModule.РасчетСебестоимостиПроведениеДокументов</commonModules>
   <commonModules>CommonModule.РеализацияТоваровУслугЛокализация</commonModules>
   <constants>Constant.RA_AdditionalFields_ГФУ_ProfitCenterПоУмолчанию</constants>
+  <constants>Constant.RA_AdditionalFields_ИспользоватьОтборГрузополучателяПоПартнеру</constants>
   <catalogs>Catalog.RA_AdditionalFields_ReportingUnits</catalogs>
   <catalogs>Catalog.RA_AdditionalFields_StockTypes</catalogs>
   <catalogs>Catalog.RA_AdditionalFields_StrategicBusinessEntities</catalogs>
@@ -106,6 +107,7 @@
   <enums>Enum.ВидыЦенностей</enums>
   <enums>Enum.ИсточникиИнформацииОЦенахДляПечати</enums>
   <enums>Enum.НазначенияВидовЦен</enums>
+  <enums>Enum.ОтветственныеЛицаОрганизаций</enums>
   <enums>Enum.ПорядокОформленияСписанияТоваровПринятыхНаХранение</enums>
   <enums>Enum.ПорядокРасчетов</enums>
   <enums>Enum.СпособыДоставки</enums>

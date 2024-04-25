@@ -21,4 +21,12 @@
       <form>Extended</form>
     </extension>
   </forms>
+  <forms uuid="290d9c23-c5d9-4386-bf8e-ca25fa97145b" extendedConfigurationObject="3879c86e-c991-4b3f-81bc-c2f0df14fb8d">
+    <name>РеквизитыПечати</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
 </mdclass:Document>

@@ -11,8 +11,28 @@
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:CatalogExtension">
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <codeLength>Checked</codeLength>
+    <codeAllowedLength>Checked</codeAllowedLength>
+    <descriptionLength>Checked</descriptionLength>
+    <codeType>Checked</codeType>
+    <predefined>Checked</predefined>
   </extension>
   <useStandardCommands>true</useStandardCommands>
+  <codeLength>11</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <predefined>
+    <items id="97403c2a-4260-481c-8835-1ea87e51a4aa">
+      <name>НашеПредприятие</name>
+      <description>Наше предприятие</description>
+      <extension xsi:type="mdclassExtension:PredefinedItemExtension">
+        <state>AdoptedCheck</state>
+      </extension>
+      <code xsi:type="core:StringValue">
+        <value>УТ-00000001</value>
+      </code>
+    </items>
+  </predefined>
   <attributes uuid="755836ed-e027-4679-a1e7-60658a6a6a32">
     <name>RA_AdditionalFields_TradingPartner</name>
     <synonym>

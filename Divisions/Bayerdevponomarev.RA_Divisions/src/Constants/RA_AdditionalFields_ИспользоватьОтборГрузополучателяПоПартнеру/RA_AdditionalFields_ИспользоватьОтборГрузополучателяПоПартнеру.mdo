@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6984a290-6179-4f60-9c9d-b56e9f996896">
+  <producedTypes>
+    <managerType typeId="3fb6f329-e1ea-4ab1-84d9-5cc62062b158" valueTypeId="ee1a6ea3-c9e2-43af-a798-773bfdde44a7"/>
+    <valueManagerType typeId="fd93f143-1503-4f9c-bc97-9528292fbd50" valueTypeId="45882557-5a7b-4386-955a-c8d36631d9cf"/>
+    <valueKeyType typeId="fd17f8ae-dbbb-4b02-8437-f65632842e9b" valueTypeId="9bed6a14-3457-4aa1-b4ad-b2c274babebc"/>
+  </producedTypes>
+  <name>RA_AdditionalFields_ИспользоватьОтборГрузополучателяПоПартнеру</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать отбор грузополучателя по партнеру (Bayer)</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

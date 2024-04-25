@@ -46,6 +46,31 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <tabularSections uuid="63d5af34-2247-4e2a-9fb1-f15932ae8d5e">
+    <producedTypes>
+      <objectType typeId="45416dc6-6779-476d-845d-c3545db1c4fb" valueTypeId="3b6a7aa2-f6c1-41be-b580-81ed8e5289e0"/>
+      <rowType typeId="cd8cbf8f-c19b-4076-830f-3cef10dee711" valueTypeId="1305bd59-58ed-4cee-b3aa-3b0bc5113c17"/>
+    </producedTypes>
+    <name>RA_AdditionalFields_СписокГрузополучателей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Грузополучатели</value>
+    </synonym>
+    <attributes uuid="848747eb-ae65-43f7-97bc-818bf717debf">
+      <name>Грузополучатель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Грузополучатель</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
   <forms uuid="d75d4d0a-875b-400d-ad52-d70614f6e1b6" extendedConfigurationObject="0a9b29ca-f68a-4d5c-8ba0-9a2fb079ab7c">
     <name>ФормаЭлементаРеквизитыКонтрагента</name>
     <objectBelonging>Adopted</objectBelonging>

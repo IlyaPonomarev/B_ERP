@@ -83,6 +83,7 @@
   <commonModules>CommonModule.РеализацияТоваровУслугЛокализация</commonModules>
   <constants>Constant.RA_AdditionalFields_ГФУ_ProfitCenterПоУмолчанию</constants>
   <constants>Constant.RA_AdditionalFields_ИспользоватьОтборГрузополучателяПоПартнеру</constants>
+  <commonForms>CommonForm.РеквизитыПечатиРеализации</commonForms>
   <catalogs>Catalog.RA_AdditionalFields_ReportingUnits</catalogs>
   <catalogs>Catalog.RA_AdditionalFields_StockTypes</catalogs>
   <catalogs>Catalog.RA_AdditionalFields_StrategicBusinessEntities</catalogs>

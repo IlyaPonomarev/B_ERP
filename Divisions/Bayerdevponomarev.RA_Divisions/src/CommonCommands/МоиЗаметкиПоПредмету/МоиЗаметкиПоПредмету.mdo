@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b24dc1fa-7a90-42a3-b28e-a2d7dd3932d3" extendedConfigurationObject="c03f9972-5a1f-449b-b170-5a958c2b5846">
+  <name>МоиЗаметкиПоПредмету</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:BasicCommandExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <group>Checked</group>
+  </extension>
+  <group>FormNavigationPanelSeeAlso</group>
+</mdclass:CommonCommand>

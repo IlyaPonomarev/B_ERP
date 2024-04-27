@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="64e9b8f8-8dfd-427e-9b27-14713c57b7e0">
+  <producedTypes>
+    <objectType typeId="07212204-9014-4c8a-8a01-5ebe5c3dc6a6" valueTypeId="1497e3c6-8649-4d23-8df1-5610879faa83"/>
+    <refType typeId="33edb76d-402f-4388-8de2-586eea39760a" valueTypeId="8dd49551-caed-4a89-ac17-f3f23dad2af9"/>
+    <selectionType typeId="7b9fbcea-6964-4097-8f0b-8b5dcdf53f67" valueTypeId="0815c68f-4da2-4c26-a040-149189f6797b"/>
+    <listType typeId="7b3febd3-332b-451a-a67e-c4ecf5747115" valueTypeId="a60569a1-dd4c-40d2-812c-ec7fdd8f1de5"/>
+    <managerType typeId="6c179810-23b6-4667-b4a1-7c3c69bea588" valueTypeId="91d27070-2b24-4ced-bca0-9575914c238d"/>
+  </producedTypes>
+  <name>RA_AdditionalFields_PurchasingOrganizations</name>
+  <synonym>
+    <key>ru</key>
+    <value>Purchasing organizations (Bayer)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.RA_AdditionalFields_PurchasingOrganizations.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.RA_AdditionalFields_PurchasingOrganizations.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Purchasing organization (Bayer)</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Purchasing organization (Bayer)</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Purchasing organizations (Bayer)</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Purchasing organizations (Bayer)</value>
+  </extendedListPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

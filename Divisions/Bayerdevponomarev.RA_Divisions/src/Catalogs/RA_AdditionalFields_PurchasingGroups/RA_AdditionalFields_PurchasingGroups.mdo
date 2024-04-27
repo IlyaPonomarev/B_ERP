@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aae32763-df0c-4743-807f-76f42f2ddc95">
+  <producedTypes>
+    <objectType typeId="97dd9b2f-cf78-47e2-8e44-ab357916abbd" valueTypeId="ae10f89a-5ecf-4afa-a4f9-48f880eae605"/>
+    <refType typeId="90b12947-337d-4dae-b0a4-5f71248f99a8" valueTypeId="6a43c3b7-66bb-48c0-a11a-8e387564d141"/>
+    <selectionType typeId="d8813375-2f5a-453e-bb13-595af648ae3c" valueTypeId="5efb73c1-384f-47a4-833d-fae63fd9e80c"/>
+    <listType typeId="e1412445-44c6-46ac-a142-7d623aa52c86" valueTypeId="ee7f688a-981e-41e3-830c-ed73e656b66c"/>
+    <managerType typeId="3aa832cb-3af1-46e9-99ff-5ef282daad6c" valueTypeId="7dadc550-0137-49de-b90b-451d28083547"/>
+  </producedTypes>
+  <name>RA_AdditionalFields_PurchasingGroups</name>
+  <synonym>
+    <key>ru</key>
+    <value>Purchasing groups (Bayer)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.RA_AdditionalFields_PurchasingGroups.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Purchasing group (Bayer)</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Purchasing group (Bayer)</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Purchasing groups (Bayer)</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Purchasing groups (Bayer)</value>
+  </extendedListPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

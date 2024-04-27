@@ -20,7 +20,7 @@
 		Форма.Элементы.Менеджер.Заголовок = "Sales organization";
 	КонецЕсли;
 	
-	//@skip-check wrong-string-literal-content
+	//@skip-check bsl-legacy-check-string-literal
 	Если НЕ ЗначениеЗаполнено(Форма.Объект.Ссылка) И НЕ ОбщегоНазначения.ЗначениеРеквизитаОбъекта(Форма.Объект.Менеджер, "RA_AdditionalFields_ItsSalesPurchasingOrganization") Тогда
 		Форма.Объект.Менеджер = ПредопределенноеЗначение("Справочник.Пользователи.ПустаяСсылка");		
 	КонецЕсли;

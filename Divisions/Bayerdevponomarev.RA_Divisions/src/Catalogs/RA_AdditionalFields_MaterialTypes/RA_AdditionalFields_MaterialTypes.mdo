@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cceb8001-ffa8-4ad8-9384-60ca5be1e568">
+  <producedTypes>
+    <objectType typeId="8efb9f23-221a-4aeb-9c61-c7c76ce96a60" valueTypeId="d0827ea6-ae13-43d1-844d-78d9d5cb255f"/>
+    <refType typeId="0ff65a69-7dc5-4828-b107-62339eafc045" valueTypeId="2b4d6ccc-f9e6-40b1-873c-ec0a0acbf06c"/>
+    <selectionType typeId="a8b52e87-55b3-4c2a-a0f3-364d9729186f" valueTypeId="bacb84e0-216e-4633-a65d-1c67064da014"/>
+    <listType typeId="a3604c4a-3929-4df2-bff9-772cb7db6540" valueTypeId="50158307-98d8-4961-bb62-bf99d4b100aa"/>
+    <managerType typeId="f04b737b-51d5-4e85-9149-74687cfce746" valueTypeId="8c418b22-cb41-4441-bf93-c9c6b54791b2"/>
+  </producedTypes>
+  <name>RA_AdditionalFields_MaterialTypes</name>
+  <synonym>
+    <key>ru</key>
+    <value>Material types (Bayer)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.RA_AdditionalFields_MaterialTypes.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.RA_AdditionalFields_MaterialTypes.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Material type (Bayer)</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Material type (Bayer)</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Material types (Bayer)</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Material types (Bayer)</value>
+  </extendedListPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

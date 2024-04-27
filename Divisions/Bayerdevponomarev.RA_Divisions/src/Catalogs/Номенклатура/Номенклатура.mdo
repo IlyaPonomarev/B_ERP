@@ -13,33 +13,47 @@
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
   </extension>
   <useStandardCommands>true</useStandardCommands>
-  <attributes uuid="80e80a2a-389a-46ae-9c25-3cdd2b0e606e">
-    <name>RA_AdditionalFields_КодSAP</name>
+  <attributes uuid="6961a06e-9e17-4f65-967e-3fcb5448f92c">
+    <name>RA_AdditionalFields_DChainSpecStatus</name>
     <synonym>
       <key>ru</key>
-      <value>Код SAP</value>
+      <value>DChain-spec. status</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>10</length>
-      </stringQualifiers>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <use>ForFolderAndItem</use>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="ccb8ef2e-ebf2-4a23-9d9b-7bc51831da8e">
-    <name>RA_AdditionalFields_Division</name>
+  <attributes uuid="9ac95c63-0cae-4749-a25e-530c55e168f0">
+    <name>RA_AdditionalFields_MaterialGroup</name>
     <synonym>
       <key>ru</key>
-      <value>Division</value>
+      <value>Material group</value>
     </synonym>
     <type>
-      <types>CatalogRef.НаправленияДеятельности</types>
+      <types>CatalogRef.RA_AdditionalFields_MaterialGroups</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="912b13ef-f6f8-4214-950a-0465da0e8ae2">
+    <name>RA_AdditionalFields_MaterialType</name>
+    <synonym>
+      <key>ru</key>
+      <value>Material type</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.RA_AdditionalFields_MaterialTypes</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -60,6 +74,127 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="56f43c4e-48cc-4e65-9b36-a38b70dab0d2">
+    <name>RA_AdditionalFields_PurchasingGroup</name>
+    <synonym>
+      <key>ru</key>
+      <value>Purchasing group</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.RA_AdditionalFields_PurchasingGroups</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d94f3ba8-7bb7-461d-b780-9afc16c31353">
+    <name>RA_AdditionalFields_PurchasingOrganization</name>
+    <synonym>
+      <key>ru</key>
+      <value>Purchasing organization</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.RA_AdditionalFields_PurchasingOrganizations</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2086503e-3d71-4bf4-8717-a82de22657d9">
+    <name>RA_AdditionalFields_ValidFrom</name>
+    <synonym>
+      <key>ru</key>
+      <value>Valid from</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="159c8613-7920-4be1-b021-29aae3ec731e">
+    <name>RA_AdditionalFields_XPlantMatlStatus</name>
+    <synonym>
+      <key>ru</key>
+      <value>X-plant matl status</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9c31bebf-60db-4998-97ef-cdedf434168f">
+    <name>RA_AdditionalFields_XPlntMatlValidFrom</name>
+    <synonym>
+      <key>ru</key>
+      <value>X-Plnt Matl Valid From</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2bf40bac-e681-49f2-afd9-cf7b26b53bf5">
+    <name>RA_AdditionalFields_ДополнительноеНаименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочее наименование (RUS)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="80e80a2a-389a-46ae-9c25-3cdd2b0e606e">
+    <name>RA_AdditionalFields_КодSAP</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код SAP</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
     <dataHistory>Use</dataHistory>
   </attributes>
   <forms uuid="e5861e82-8e32-446c-aec9-0253881776be" extendedConfigurationObject="41c80aa8-4fc3-49dd-82ef-95812b6326fa">

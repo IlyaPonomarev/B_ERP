@@ -81,20 +81,33 @@
   <commonModules>CommonModule.RA_AdditionalFields_ИзменениеИнтерфейсаФорм</commonModules>
   <commonModules>CommonModule.РасчетСебестоимостиПроведениеДокументов</commonModules>
   <commonModules>CommonModule.РеализацияТоваровУслугЛокализация</commonModules>
+  <commonCommands>CommonCommand.ЗадачиПоПредмету</commonCommands>
+  <commonCommands>CommonCommand.ИсторияИзменений</commonCommands>
+  <commonCommands>CommonCommand.МоиЗаметкиПоПредмету</commonCommands>
   <constants>Constant.RA_AdditionalFields_ГФУ_ProfitCenterПоУмолчанию</constants>
   <constants>Constant.RA_AdditionalFields_ИспользоватьОтборГрузополучателяПоПартнеру</constants>
   <commonForms>CommonForm.РеквизитыПечатиРеализации</commonForms>
+  <catalogs>Catalog.RA_AdditionalFields_MaterialGroups</catalogs>
+  <catalogs>Catalog.RA_AdditionalFields_MaterialTypes</catalogs>
+  <catalogs>Catalog.RA_AdditionalFields_PurchasingGroups</catalogs>
+  <catalogs>Catalog.RA_AdditionalFields_PurchasingOrganizations</catalogs>
   <catalogs>Catalog.RA_AdditionalFields_ReportingUnits</catalogs>
   <catalogs>Catalog.RA_AdditionalFields_StockTypes</catalogs>
   <catalogs>Catalog.RA_AdditionalFields_StrategicBusinessEntities</catalogs>
   <catalogs>Catalog.RA_AdditionalFields_TradingPartners</catalogs>
   <catalogs>Catalog.ГруппыФинансовогоУчетаНоменклатуры</catalogs>
   <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
+  <catalogs>Catalog.КлассификаторВидовЭкономическойДеятельности</catalogs>
+  <catalogs>Catalog.КлассификаторОКВЭД2</catalogs>
+  <catalogs>Catalog.КлассификаторОКПД2</catalogs>
+  <catalogs>Catalog.КлассификаторТНВЭД</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.НаправленияДеятельности</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.ОбщероссийскийКлассификаторПродукции</catalogs>
   <catalogs>Catalog.Партнеры</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.Производители</catalogs>
   <catalogs>Catalog.Склады</catalogs>
   <catalogs>Catalog.СтруктураПредприятия</catalogs>
   <documents>Document.ЗаказКлиента</documents>

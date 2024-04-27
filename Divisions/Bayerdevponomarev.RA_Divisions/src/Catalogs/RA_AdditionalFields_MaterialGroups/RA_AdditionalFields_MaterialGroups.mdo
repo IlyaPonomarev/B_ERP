@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3bd1e73a-476f-4cbe-a044-fc57373fe197">
+  <producedTypes>
+    <objectType typeId="4150142c-7bdb-4ba6-8029-7fd6545991eb" valueTypeId="eac004fb-7b8d-4d01-aa6c-9b0e5685f751"/>
+    <refType typeId="185965a2-99e3-4f8a-90d4-ee90a11336a3" valueTypeId="b2e5aa37-7559-454b-84fc-15579e6ef16a"/>
+    <selectionType typeId="4c7f05eb-0afc-4fd3-a9a0-408c0a8ff4e6" valueTypeId="3414f6c6-6265-4eb7-a2f8-9a3cc0c6aeb0"/>
+    <listType typeId="7813d989-6d5a-4b9b-a5f1-316fa8e10276" valueTypeId="dd9264d5-88c0-4e91-92d1-c8c80d98ebac"/>
+    <managerType typeId="e75b3f1b-20a5-474e-895c-f42b49da0832" valueTypeId="facb5f82-b69a-4c36-9311-eae6671186e5"/>
+  </producedTypes>
+  <name>RA_AdditionalFields_MaterialGroups</name>
+  <synonym>
+    <key>ru</key>
+    <value>Material groups (Bayer)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.RA_AdditionalFields_MaterialGroups.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Material group (Bayer)</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Material group (Bayer)</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Material groups (Bayer)</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Material groups (Bayer)</value>
+  </extendedListPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

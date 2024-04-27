@@ -31,7 +31,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>ООО &quot;Рациональная Автоматизация&quot;</vendor>
-  <version>2024-04-22 Пономарев И.О.</version>
+  <version>2024-04-27 Пономарев И.О.</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
   <compatibilityMode>8.3.21</compatibilityMode>
@@ -81,6 +81,7 @@
   <commonModules>CommonModule.RA_AdditionalFields_ИзменениеИнтерфейсаФорм</commonModules>
   <commonModules>CommonModule.РасчетСебестоимостиПроведениеДокументов</commonModules>
   <commonModules>CommonModule.РеализацияТоваровУслугЛокализация</commonModules>
+  <definedTypes>DefinedType.GTIN</definedTypes>
   <commonCommands>CommonCommand.ЗадачиПоПредмету</commonCommands>
   <commonCommands>CommonCommand.ИсторияИзменений</commonCommands>
   <commonCommands>CommonCommand.МоиЗаметкиПоПредмету</commonCommands>
@@ -95,40 +96,69 @@
   <catalogs>Catalog.RA_AdditionalFields_StockTypes</catalogs>
   <catalogs>Catalog.RA_AdditionalFields_StrategicBusinessEntities</catalogs>
   <catalogs>Catalog.RA_AdditionalFields_TradingPartners</catalogs>
+  <catalogs>Catalog.ВидыАлкогольнойПродукции</catalogs>
+  <catalogs>Catalog.ВидыНоменклатуры</catalogs>
+  <catalogs>Catalog.ГруппыАналитическогоУчетаНоменклатуры</catalogs>
+  <catalogs>Catalog.ГруппыДоступаНоменклатуры</catalogs>
   <catalogs>Catalog.ГруппыФинансовогоУчетаНоменклатуры</catalogs>
   <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
+  <catalogs>Catalog.ДрагоценныеМатериалы</catalogs>
   <catalogs>Catalog.КлассификаторВидовЭкономическойДеятельности</catalogs>
   <catalogs>Catalog.КлассификаторОКВЭД2</catalogs>
   <catalogs>Catalog.КлассификаторОКПД2</catalogs>
   <catalogs>Catalog.КлассификаторТНВЭД</catalogs>
+  <catalogs>Catalog.КодыОперацийРаздела7ДекларацииПоНДС</catalogs>
+  <catalogs>Catalog.КоллекцииНоменклатуры</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Марки</catalogs>
+  <catalogs>Catalog.НаборыУпаковок</catalogs>
   <catalogs>Catalog.НаправленияДеятельности</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.ОбщероссийскийКлассификаторПродукции</catalogs>
   <catalogs>Catalog.Партнеры</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.Производители</catalogs>
+  <catalogs>Catalog.РейтингиПродажНоменклатуры</catalogs>
+  <catalogs>Catalog.СезонныеГруппы</catalogs>
+  <catalogs>Catalog.СкладскиеГруппыНоменклатуры</catalogs>
   <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.СпособыОбеспеченияПотребностей</catalogs>
+  <catalogs>Catalog.СтавкиНДС</catalogs>
+  <catalogs>Catalog.СтраныМира</catalogs>
   <catalogs>Catalog.СтруктураПредприятия</catalogs>
+  <catalogs>Catalog.СхемыОбеспечения</catalogs>
+  <catalogs>Catalog.ТоварныеКатегории</catalogs>
+  <catalogs>Catalog.УпаковкиЕдиницыИзмерения</catalogs>
+  <catalogs>Catalog.ХарактеристикиНоменклатуры</catalogs>
+  <catalogs>Catalog.ЦеновыеГруппы</catalogs>
+  <catalogs>Catalog.ШаблоныЭтикетокИЦенников</catalogs>
   <documents>Document.ЗаказКлиента</documents>
   <documents>Document.ЗаказПоставщику</documents>
   <documents>Document.ПриобретениеТоваровУслуг</documents>
   <documents>Document.РеализацияТоваровУслуг</documents>
   <enums>Enum.ВариантыВыбытияМаркируемойПродукции</enums>
+  <enums>Enum.ВариантыИспользованияХарактеристикНоменклатуры</enums>
   <enums>Enum.ВариантыОтправкиЭлектронногоЧекаПокупателю</enums>
   <enums>Enum.ВариантыОтраженияНеотфактурованныхПоставокНУ</enums>
   <enums>Enum.ВариантыОформленияПродажи</enums>
+  <enums>Enum.ВидыКиЗГИСМ</enums>
   <enums>Enum.ВидыЦенностей</enums>
+  <enums>Enum.ГрадацииКачества</enums>
+  <enums>Enum.ЕдиницыИзмеренияВремени</enums>
   <enums>Enum.ИсточникиИнформацииОЦенахДляПечати</enums>
   <enums>Enum.НазначенияВидовЦен</enums>
   <enums>Enum.ОтветственныеЛицаОрганизаций</enums>
   <enums>Enum.ПорядокОформленияСписанияТоваровПринятыхНаХранение</enums>
   <enums>Enum.ПорядокРасчетов</enums>
+  <enums>Enum.РазмерыКиЗГИСМ</enums>
+  <enums>Enum.РасположениеДрагоценныхКамней</enums>
+  <enums>Enum.СпособыВыпускаВОборотГИСМ</enums>
   <enums>Enum.СпособыДоставки</enums>
   <enums>Enum.СтатусыДействияВидовЦен</enums>
   <enums>Enum.СтатусыДоговоровКонтрагентов</enums>
   <enums>Enum.ТипыНалогообложенияНДС</enums>
   <enums>Enum.ТипыНаправленийДеятельности</enums>
+  <enums>Enum.ТипыНоменклатуры</enums>
   <enums>Enum.ТипыСкладов</enums>
   <enums>Enum.ХозяйственныеОперации</enums>
   <enums>Enum.ЮрФизЛицо</enums>

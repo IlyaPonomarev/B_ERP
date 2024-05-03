@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cfb229c7-d64a-4aa2-bfd5-ac1b5603633d">
+  <producedTypes>
+    <objectType typeId="f2599645-47a9-433d-9233-03d83dac63f6" valueTypeId="ff10e398-a5e9-4182-8fbc-644d038fdbf3"/>
+    <refType typeId="08576e6d-f757-47bb-82ad-a7e2093656c9" valueTypeId="e6c5a3df-c4a4-4bc3-8b0b-04a04958561c"/>
+    <selectionType typeId="32129812-f47a-43f5-a145-d193f5dd8524" valueTypeId="88fa8533-cf44-47fb-9a52-ea3c5775d266"/>
+    <listType typeId="ee2cc9cc-6303-4915-9a19-82c8fed16118" valueTypeId="6e6206f6-c26b-49aa-befe-ef06f9a57836"/>
+    <managerType typeId="bba792e5-068d-4876-90a6-5ccb65baa63c" valueTypeId="ba73da8b-a4cb-465f-9298-12c6c8c7823f"/>
+  </producedTypes>
+  <name>RA_AdditionalFields_Brands</name>
+  <synonym>
+    <key>ru</key>
+    <value>Brands (Bayer)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.RA_AdditionalFields_Brands.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Brand (Bayer)</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Brand (Bayer)</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Brands (Bayer)</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Brands (Bayer)</value>
+  </extendedListPresentation>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

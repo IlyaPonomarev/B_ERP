@@ -88,6 +88,7 @@
   <constants>Constant.RA_AdditionalFields_ГФУ_ProfitCenterПоУмолчанию</constants>
   <constants>Constant.RA_AdditionalFields_ИспользоватьОтборГрузополучателяПоПартнеру</constants>
   <commonForms>CommonForm.РеквизитыПечатиРеализации</commonForms>
+  <catalogs>Catalog.RA_AdditionalFields_Brands</catalogs>
   <catalogs>Catalog.RA_AdditionalFields_MaterialGroups</catalogs>
   <catalogs>Catalog.RA_AdditionalFields_MaterialTypes</catalogs>
   <catalogs>Catalog.RA_AdditionalFields_PurchasingGroups</catalogs>

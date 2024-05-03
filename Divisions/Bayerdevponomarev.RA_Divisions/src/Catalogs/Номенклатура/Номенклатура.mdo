@@ -23,6 +23,21 @@
   <codeLength>11</codeLength>
   <descriptionLength>100</descriptionLength>
   <codeType>String</codeType>
+  <attributes uuid="96c34544-278d-4719-abaf-d45ceeec42a6">
+    <name>RA_AdditionalFields_Brand</name>
+    <synonym>
+      <key>ru</key>
+      <value>Brand</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.RA_AdditionalFields_Brands</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="6961a06e-9e17-4f65-967e-3fcb5448f92c">
     <name>RA_AdditionalFields_DChainSpecStatus</name>
     <synonym>
@@ -235,6 +250,24 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="23a4b28c-89b1-4473-bf20-22a7addf1720">
+    <name>RA_AdditionalFields_МННЛП</name>
+    <synonym>
+      <key>ru</key>
+      <value>МНН ЛП</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="2e9ba27e-e82c-4e3a-ba42-9dd2a956a728" extendedConfigurationObject="c5d6e01c-3f06-4df0-8eca-aaf51274cbd2">
@@ -1327,24 +1360,6 @@
         </types>
       </typeExtension>
     </extension>
-  </attributes>
-  <attributes uuid="23a4b28c-89b1-4473-bf20-22a7addf1720">
-    <name>RA_AdditionalFields_МННЛП</name>
-    <synonym>
-      <key>ru</key>
-      <value>МНН ЛП</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>150</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
   </attributes>
   <tabularSections uuid="1d7163ff-e2b5-4c4c-8fbc-577792edb165">
     <producedTypes>

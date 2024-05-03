@@ -93,6 +93,7 @@
   <catalogs>Catalog.RA_AdditionalFields_MaterialTypes</catalogs>
   <catalogs>Catalog.RA_AdditionalFields_PurchasingGroups</catalogs>
   <catalogs>Catalog.RA_AdditionalFields_PurchasingOrganizations</catalogs>
+  <catalogs>Catalog.RA_AdditionalFields_Regions</catalogs>
   <catalogs>Catalog.RA_AdditionalFields_ReportingUnits</catalogs>
   <catalogs>Catalog.RA_AdditionalFields_StockTypes</catalogs>
   <catalogs>Catalog.RA_AdditionalFields_StrategicBusinessEntities</catalogs>

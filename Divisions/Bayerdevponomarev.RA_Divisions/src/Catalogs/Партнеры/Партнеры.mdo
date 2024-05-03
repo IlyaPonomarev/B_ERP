@@ -84,6 +84,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="c4d10da6-e48d-437a-aece-3481c9cd8e31">
+    <name>RA_AdditionalFields_Region</name>
+    <synonym>
+      <key>ru</key>
+      <value>Region</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.RA_AdditionalFields_Regions</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="63d5af34-2247-4e2a-9fb1-f15932ae8d5e">
     <producedTypes>
       <objectType typeId="45416dc6-6779-476d-845d-c3545db1c4fb" valueTypeId="3b6a7aa2-f6c1-41be-b580-81ed8e5289e0"/>

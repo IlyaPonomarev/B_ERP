@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="85e881d1-589c-4ba6-aef3-f9ef77f29616">
+  <producedTypes>
+    <objectType typeId="cf02c806-7277-49ea-9b15-c7c75e8cb633" valueTypeId="777c9560-1ad7-451e-8a53-91f3e52d0aed"/>
+    <refType typeId="bbc9bad1-d35d-424c-9ce9-e14d40dc4706" valueTypeId="e4e850b6-3771-4dba-be57-5ea361572738"/>
+    <selectionType typeId="24cc188e-f799-4ef3-88fe-58338158487c" valueTypeId="0a28bb8f-ba1e-4312-af5b-6891e3f55c8e"/>
+    <listType typeId="646e0512-8351-4952-8482-1f9f01f099b8" valueTypeId="ade55bfa-7993-42fd-8a53-d62b7cbd7a94"/>
+    <managerType typeId="8967d65a-31a6-4d79-9fed-ab8229075c9c" valueTypeId="363cfc8d-1ee1-46da-94a7-2c2d328c06e8"/>
+  </producedTypes>
+  <name>RA_AdditionalFields_Regions</name>
+  <synonym>
+    <key>ru</key>
+    <value>Regions (Bayer)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.RA_AdditionalFields_Regions.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Region (Bayer)</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Region (Bayer)</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Regions (Bayer)</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Regions (Bayer)</value>
+  </extendedListPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

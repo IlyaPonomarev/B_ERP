@@ -66,6 +66,24 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="63a69dfc-3d91-4141-9e4d-c163ef4c4c49">
+    <name>RA_AdditionalFields_SearchTerm</name>
+    <synonym>
+      <key>ru</key>
+      <value>Search term</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="63d5af34-2247-4e2a-9fb1-f15932ae8d5e">
     <producedTypes>
       <objectType typeId="45416dc6-6779-476d-845d-c3545db1c4fb" valueTypeId="3b6a7aa2-f6c1-41be-b580-81ed8e5289e0"/>

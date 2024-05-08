@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7e0d3c77-346c-4fdd-835e-7d61c36f6fde" extendedConfigurationObject="5e0d9dd9-464c-4fa3-984a-2a2da8517f38">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7e0d3c77-346c-4fdd-835e-7d61c36f6fde" extendedConfigurationObject="5e0d9dd9-464c-4fa3-984a-2a2da8517f38">
   <producedTypes>
     <objectType typeId="29953a1a-b349-4028-851a-b2e00c499b05" valueTypeId="1fa409b8-8074-49b7-ab5a-0e033beadd38"/>
     <refType typeId="54ac1680-61e9-4d3c-8b36-d73791d47b15" valueTypeId="e2f5d082-2fff-49f4-80d8-453acc432e1b"/>
@@ -21,4 +21,29 @@
       <form>Extended</form>
     </extension>
   </forms>
+  <tabularSections uuid="8eb8e52c-1f6a-402f-9dc8-878e51f343d5" extendedConfigurationObject="941aa10e-3657-48ec-8f9d-92e38e90ecbf">
+    <producedTypes>
+      <objectType typeId="a6998f66-9526-4475-bb12-bf38d8b74252" valueTypeId="e733c9d5-7c2d-47dc-b881-68b6238fd2ab"/>
+      <rowType typeId="71bf6d34-8973-4864-b0be-07c420eda9b2" valueTypeId="98bc5f46-4b94-4042-87dd-ea0f310cc389"/>
+    </producedTypes>
+    <name>Товары</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="c2724ad2-8278-462c-8e4e-91467b02e2f7">
+      <name>RA_AdditionalFields_CostCentre</name>
+      <synonym>
+        <key>ru</key>
+        <value>Cost centre</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтруктураПредприятия</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
 </mdclass:Document>

@@ -91,6 +91,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="6f44b90e-42eb-44e0-ad2e-710f8cbb77e2">
+    <name>RA_AdditionalFields_ItsCostCentre</name>
+    <synonym>
+      <key>ru</key>
+      <value>Cost centre</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="ffa9fdb0-8b98-4cc6-8cb7-c7ef94bf1ed0" extendedConfigurationObject="ca96cd59-3219-4a07-86d2-7d0f10d6008c">
     <name>ФормаЭлемента</name>
     <objectBelonging>Adopted</objectBelonging>

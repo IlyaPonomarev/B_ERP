@@ -111,7 +111,6 @@
     <value>Brands (Bayer)</value>
   </extendedListPresentation>
   <hierarchical>true</hierarchical>
-  <hierarchyType>HierarchyOfItems</hierarchyType>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <descriptionLength>150</descriptionLength>

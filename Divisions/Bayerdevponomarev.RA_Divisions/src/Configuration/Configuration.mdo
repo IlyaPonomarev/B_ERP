@@ -31,7 +31,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>ООО &quot;Рациональная Автоматизация&quot;</vendor>
-  <version>2024-05-03 Пономарев И.О.</version>
+  <version>2024-05-08 Пономарев И.О.</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
   <compatibilityMode>8.3.21</compatibilityMode>
@@ -79,9 +79,11 @@
   <roles>Role.RA_AdditionalFields_ДобавлениеИзменениеСправочниковBayer</roles>
   <roles>Role.RA_AdditionalFields_ЧтениеСправочниковBayer</roles>
   <commonModules>CommonModule.RA_AdditionalFields_ИзменениеИнтерфейсаФорм</commonModules>
+  <commonModules>CommonModule.ПриобретениеТоваровУслугЛокализация</commonModules>
   <commonModules>CommonModule.РасчетСебестоимостиПроведениеДокументов</commonModules>
   <commonModules>CommonModule.РеализацияТоваровУслугЛокализация</commonModules>
   <definedTypes>DefinedType.GTIN</definedTypes>
+  <definedTypes>DefinedType.ДенежнаяСуммаЛюбогоЗнака</definedTypes>
   <commonCommands>CommonCommand.ЗадачиПоПредмету</commonCommands>
   <commonCommands>CommonCommand.ИсторияИзменений</commonCommands>
   <commonCommands>CommonCommand.МоиЗаметкиПоПредмету</commonCommands>
@@ -114,11 +116,13 @@
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Марки</catalogs>
   <catalogs>Catalog.НаборыУпаковок</catalogs>
+  <catalogs>Catalog.Назначения</catalogs>
   <catalogs>Catalog.НаправленияДеятельности</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.ОбщероссийскийКлассификаторПродукции</catalogs>
   <catalogs>Catalog.Партнеры</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.ПричиныОтменыЗаказовПоставщикам</catalogs>
   <catalogs>Catalog.Производители</catalogs>
   <catalogs>Catalog.РейтингиПродажНоменклатуры</catalogs>
   <catalogs>Catalog.СезонныеГруппы</catalogs>
@@ -158,10 +162,13 @@
   <enums>Enum.СпособыДоставки</enums>
   <enums>Enum.СтатусыДействияВидовЦен</enums>
   <enums>Enum.СтатусыДоговоровКонтрагентов</enums>
+  <enums>Enum.ТипыНазначений</enums>
   <enums>Enum.ТипыНалогообложенияНДС</enums>
   <enums>Enum.ТипыНаправленийДеятельности</enums>
   <enums>Enum.ТипыНоменклатуры</enums>
+  <enums>Enum.ТипыОбъектовНазначений</enums>
   <enums>Enum.ТипыСкладов</enums>
   <enums>Enum.ХозяйственныеОперации</enums>
   <enums>Enum.ЮрФизЛицо</enums>
+  <accumulationRegisters>AccumulationRegister.Закупки</accumulationRegisters>
 </mdclass:Configuration>

@@ -3345,6 +3345,11 @@
                 <dataPath xsi:type="form:DataPath">
                   <segments>Объект.Товары.СписатьНаРасходы</segments>
                 </dataPath>
+                <handlers xsi:type="form:EventHandlerExtension">
+                  <event>OnChange</event>
+                  <name>RA_AdditionalFieldsТоварыСписатьНаРасходыПриИзмененииПосле</name>
+                  <callType>After</callType>
+                </handlers>
                 <extendedTooltip>
                   <name>ТоварыСписатьНаРасходыРасширеннаяПодсказка</name>
                   <id>789</id>

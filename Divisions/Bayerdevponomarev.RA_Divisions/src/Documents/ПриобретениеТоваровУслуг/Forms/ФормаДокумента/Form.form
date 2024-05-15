@@ -4815,6 +4815,11 @@
               <segments>Объект.Товары.СтатьяРасходов</segments>
             </dataPath>
             <titleLocation>None</titleLocation>
+            <handlers xsi:type="form:EventHandlerExtension">
+              <event>OnChange</event>
+              <name>RA_AdditionalFieldsТоварыСтатьяРасходовПриИзмененииПосле</name>
+              <callType>After</callType>
+            </handlers>
             <extendedTooltip>
               <name>ТоварыСтатьяРасходовРасширеннаяПодсказка</name>
               <id>1125</id>

@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="faf5b639-eadd-49e9-96bf-9f2bab2ace02" extendedConfigurationObject="49376eb1-bd59-41fe-98f9-a03c41003225">
+<mdclass:CommonModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="aaf40eec-cc21-4d1a-b6cb-a0a875e5d5a3" extendedConfigurationObject="49376eb1-bd59-41fe-98f9-a03c41003225">
   <name>РасчетСебестоимостиПроведениеДокументов</name>
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:CommonModuleExtension">
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
-    <module>Extended</module>
     <global>Checked</global>
     <clientManagedApplication>Checked</clientManagedApplication>
     <server>Checked</server>

@@ -242,7 +242,7 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>10</length>
+        <length>14</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>

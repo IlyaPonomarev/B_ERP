@@ -1361,6 +1361,24 @@
       </typeExtension>
     </extension>
   </attributes>
+  <attributes uuid="b420ca1b-018b-42e6-bdbf-4fa123da8fec">
+    <name>RA_AdditionalFields_XdistrСhainStatus</name>
+    <synonym>
+      <key>ru</key>
+      <value>X-distr. сhain status</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="1d7163ff-e2b5-4c4c-8fbc-577792edb165">
     <producedTypes>
       <objectType typeId="554c5c1e-66d3-4894-bcaf-23c18e2f5e69" valueTypeId="fbd11561-0512-41ce-810f-d495915edbe6"/>

@@ -149,6 +149,24 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="b420ca1b-018b-42e6-bdbf-4fa123da8fec">
+    <name>RA_AdditionalFields_XdistrСhainStatus</name>
+    <synonym>
+      <key>ru</key>
+      <value>X-distr. сhain status</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="159c8613-7920-4be1-b021-29aae3ec731e">
     <name>RA_AdditionalFields_XPlantMatlStatus</name>
     <synonym>
@@ -1360,24 +1378,6 @@
         </types>
       </typeExtension>
     </extension>
-  </attributes>
-  <attributes uuid="b420ca1b-018b-42e6-bdbf-4fa123da8fec">
-    <name>RA_AdditionalFields_XdistrСhainStatus</name>
-    <synonym>
-      <key>ru</key>
-      <value>X-distr. сhain status</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>2</precision>
-      </numberQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
   </attributes>
   <tabularSections uuid="1d7163ff-e2b5-4c4c-8fbc-577792edb165">
     <producedTypes>

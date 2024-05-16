@@ -33,32 +33,14 @@
       </code>
     </items>
   </predefined>
-  <attributes uuid="755836ed-e027-4679-a1e7-60658a6a6a32">
-    <name>RA_AdditionalFields_TradingPartner</name>
+  <attributes uuid="c4d10da6-e48d-437a-aece-3481c9cd8e31">
+    <name>RA_AdditionalFields_Region</name>
     <synonym>
       <key>ru</key>
-      <value>Trading partner</value>
+      <value>Region</value>
     </synonym>
     <type>
-      <types>CatalogRef.RA_AdditionalFields_TradingPartners</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="ed0729a7-94aa-4393-b63e-4b4690899753">
-    <name>RA_AdditionalFields_КодSAP</name>
-    <synonym>
-      <key>ru</key>
-      <value>Код SAP</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>10</length>
-      </stringQualifiers>
+      <types>CatalogRef.RA_AdditionalFields_Regions</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -84,14 +66,122 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="c4d10da6-e48d-437a-aece-3481c9cd8e31">
-    <name>RA_AdditionalFields_Region</name>
+  <attributes uuid="755836ed-e027-4679-a1e7-60658a6a6a32">
+    <name>RA_AdditionalFields_TradingPartner</name>
     <synonym>
       <key>ru</key>
-      <value>Region</value>
+      <value>Trading partner</value>
     </synonym>
     <type>
-      <types>CatalogRef.RA_AdditionalFields_Regions</types>
+      <types>CatalogRef.RA_AdditionalFields_TradingPartners</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5d47fa51-6c61-44a5-a7fb-ba97dac5fec3">
+    <name>RA_AdditionalFields_КодSAP_Customer</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код SAP Customer</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ed0729a7-94aa-4393-b63e-4b4690899753">
+    <name>RA_AdditionalFields_КодSAP_Vendor</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код SAP Vendor</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5854ccdf-f7ff-4a46-905b-3aeffa8159d4">
+    <name>RA_AdditionalFields_КодEcom_Vendor</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код E-Com Vendor</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="282bd501-62cc-4231-8fe9-5fd65991c1c2">
+    <name>RA_AdditionalFields_КодEcom_Customer</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код E-Com Customer</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4666a73c-9dad-4bac-ba39-74a2e72e8990">
+    <name>RA_AdditionalFields_IDEcom_Vendor</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID E-Com Vendor</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3f15ab90-f0bb-4815-a9f2-2ad1623e385a">
+    <name>RA_AdditionalFields_IDEcom_Customer</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID E-Com Customer</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

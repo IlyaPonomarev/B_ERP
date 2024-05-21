@@ -133,6 +133,7 @@
   <catalogs>Catalog.СхемыОбеспечения</catalogs>
   <catalogs>Catalog.ТоварныеКатегории</catalogs>
   <catalogs>Catalog.УпаковкиЕдиницыИзмерения</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
   <catalogs>Catalog.ХарактеристикиНоменклатуры</catalogs>
   <catalogs>Catalog.ЦеновыеГруппы</catalogs>
   <catalogs>Catalog.ШаблоныЭтикетокИЦенников</catalogs>

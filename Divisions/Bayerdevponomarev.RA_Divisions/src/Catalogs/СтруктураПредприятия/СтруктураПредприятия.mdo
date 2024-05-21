@@ -11,6 +11,7 @@
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:CatalogExtension">
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <objectModule>Extended</objectModule>
   </extension>
   <useStandardCommands>true</useStandardCommands>
   <attributes uuid="22b623c1-7b01-4bcd-ba78-331614a016b7">
@@ -82,7 +83,7 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>10</length>
+        <length>18</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>

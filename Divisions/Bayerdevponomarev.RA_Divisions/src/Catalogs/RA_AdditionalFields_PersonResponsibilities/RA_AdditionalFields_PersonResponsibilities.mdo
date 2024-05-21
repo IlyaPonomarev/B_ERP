@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ffe0831f-6a67-44cc-951a-cca323e9713f">
+  <producedTypes>
+    <objectType typeId="60331eda-1adc-49af-b66f-d9632187191e" valueTypeId="65b1fb9c-5fb2-4ddb-8da6-6237f46c7d16"/>
+    <refType typeId="27d7e880-7807-4e37-ab31-610bc75fbeb0" valueTypeId="5289371a-630a-49b0-b23d-186296d6f458"/>
+    <selectionType typeId="59bc960c-4eb2-411a-982a-f011de542c93" valueTypeId="8d866d4c-42b3-4fd4-a59a-c94203f72888"/>
+    <listType typeId="7cae23e9-0104-4218-8ea7-7843f6b3c390" valueTypeId="8f199c52-23e9-4d1b-b751-1515d3408ce8"/>
+    <managerType typeId="80553072-75b0-4ea6-a298-0178b69c8614" valueTypeId="75534f61-8d58-4698-a932-ed307cab3b4d"/>
+  </producedTypes>
+  <name>RA_AdditionalFields_PersonResponsibilities</name>
+  <synonym>
+    <key>ru</key>
+    <value>Person responsibilities (Bayer)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.RA_AdditionalFields_PersonResponsibilities.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Person responsible (Bayer)</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Person responsible (Bayer)</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Person responsibilities (Bayer)</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Person responsibilities (Bayer)</value>
+  </extendedListPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

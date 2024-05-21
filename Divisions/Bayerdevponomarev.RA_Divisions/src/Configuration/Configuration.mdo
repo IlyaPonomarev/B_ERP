@@ -54,6 +54,7 @@
   <commonPictures>CommonPicture.ВниманиеКрасный</commonPictures>
   <commonPictures>CommonPicture.ВниманиеСерый</commonPictures>
   <commonPictures>CommonPicture.ДлительнаяОперация16</commonPictures>
+  <commonPictures>CommonPicture.ДлительнаяОперация48</commonPictures>
   <commonPictures>CommonPicture.ЗаполнитьПоШаблону</commonPictures>
   <commonPictures>CommonPicture.ЗаполнитьФорму</commonPictures>
   <commonPictures>CommonPicture.ИнформацияПоНедоступнымПолям</commonPictures>
@@ -78,6 +79,7 @@
   <commonPictures>CommonPicture.СтатусыУказанияСерий</commonPictures>
   <roles>Role.RA_AdditionalFields_ДобавлениеИзменениеСправочниковBayer</roles>
   <roles>Role.RA_AdditionalFields_ЧтениеСправочниковBayer</roles>
+  <roles>Role.ПолныеПрава</roles>
   <commonModules>CommonModule.RA_AdditionalFields_ИзменениеИнтерфейсаФорм</commonModules>
   <commonModules>CommonModule.РасчетСебестоимостиПроведениеДокументов</commonModules>
   <commonModules>CommonModule.РеализацияТоваровУслугЛокализация</commonModules>
@@ -92,6 +94,7 @@
   <catalogs>Catalog.RA_AdditionalFields_Brands</catalogs>
   <catalogs>Catalog.RA_AdditionalFields_MaterialGroups</catalogs>
   <catalogs>Catalog.RA_AdditionalFields_MaterialTypes</catalogs>
+  <catalogs>Catalog.RA_AdditionalFields_PersonResponsibilities</catalogs>
   <catalogs>Catalog.RA_AdditionalFields_PurchasingGroups</catalogs>
   <catalogs>Catalog.RA_AdditionalFields_PurchasingOrganizations</catalogs>
   <catalogs>Catalog.RA_AdditionalFields_Regions</catalogs>
@@ -99,6 +102,7 @@
   <catalogs>Catalog.RA_AdditionalFields_StockTypes</catalogs>
   <catalogs>Catalog.RA_AdditionalFields_StrategicBusinessEntities</catalogs>
   <catalogs>Catalog.RA_AdditionalFields_TradingPartners</catalogs>
+  <catalogs>Catalog.БанковскиеСчетаКонтрагентов</catalogs>
   <catalogs>Catalog.ВидыАлкогольнойПродукции</catalogs>
   <catalogs>Catalog.ВидыНоменклатуры</catalogs>
   <catalogs>Catalog.ГруппыАналитическогоУчетаНоменклатуры</catalogs>
@@ -169,5 +173,6 @@
   <enums>Enum.ТипыСкладов</enums>
   <enums>Enum.ХозяйственныеОперации</enums>
   <enums>Enum.ЮрФизЛицо</enums>
+  <informationRegisters>InformationRegister.ЛицевыеСчетаСотрудниковПоЗарплатнымПроектам</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Закупки</accumulationRegisters>
 </mdclass:Configuration>

@@ -149,6 +149,24 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="591b5cf3-6c5b-4028-a6db-25300362c41c">
+    <name>RA_AdditionalFields_XdistrСhainDate</name>
+    <synonym>
+      <key>ru</key>
+      <value>Xdistr сhain date</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="b420ca1b-018b-42e6-bdbf-4fa123da8fec">
     <name>RA_AdditionalFields_XdistrСhainStatus</name>
     <synonym>

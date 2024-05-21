@@ -31,7 +31,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>ООО &quot;Рациональная Автоматизация&quot;</vendor>
-  <version>2024-05-08 Пономарев И.О.</version>
+  <version>2024-05-20 Пономарев И.О.</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
   <compatibilityMode>8.3.21</compatibilityMode>

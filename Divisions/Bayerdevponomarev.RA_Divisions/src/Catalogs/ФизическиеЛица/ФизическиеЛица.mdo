@@ -32,4 +32,35 @@
     <use>ForFolderAndItem</use>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="f5d97b03-feff-443c-8bf8-732c533f896d">
+    <name>RA_AdditionalFields_PersonResponsible</name>
+    <synonym>
+      <key>ru</key>
+      <value>Person responsible</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.RA_AdditionalFields_PersonResponsibilities</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="67943b75-b29f-4355-bdb4-516417d6f04c" extendedConfigurationObject="a71e23ed-c886-42df-a6cd-f913b67b72ef">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="d71abdbd-3cfb-48ca-93d9-2cce8c3063d7" extendedConfigurationObject="72e5af08-d1cb-482a-be02-15ae7352f548">
+    <name>ФормаЭлементаУП</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
 </mdclass:Catalog>

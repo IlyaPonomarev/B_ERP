@@ -137,4 +137,46 @@
       <extendedConfigurationObject>Checked</extendedConfigurationObject>
     </extension>
   </enumValues>
+  <enumValues uuid="6a0da0fe-7a33-40d5-b888-180eab99cbfd" extendedConfigurationObject="15c46c2c-15a1-40a5-a28f-782fb1b1f833">
+    <name>КорректировкаПоСогласованиюСторон</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="8e4bb49a-f285-440a-b34d-aa0cb7c7ae30" extendedConfigurationObject="d1308d15-47bd-43fc-b617-d50bd38aa876">
+    <name>ИсправлениеОшибок</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="89b771c8-3138-49bd-b4e1-4f206cf1f42a" extendedConfigurationObject="26c7e30c-f570-4794-8abe-2b7a605616bb">
+    <name>РеализацияПерепоставленногоТовара</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="555a4e75-5a6a-446f-bc04-a20ac302cd75" extendedConfigurationObject="015aae23-805e-4b1b-93d9-5fdcfb68af56">
+    <name>ВозвратНедопоставленногоТовара</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="ae23e209-aab6-4c31-a225-ed2905628a42" extendedConfigurationObject="63acc8d0-3206-497a-b7cc-098d50049f93">
+    <name>КорректировкаРеализацииУменьшениеЗадолженностиСводно</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="6c9548af-48b5-4a64-8e4f-028a6d249f41" extendedConfigurationObject="25dbb632-d2cc-4849-b580-b5b34dd542ad">
+    <name>КорректировкаРеализацииУвеличениеЗадолженностиСводно</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
 </mdclass:Enum>

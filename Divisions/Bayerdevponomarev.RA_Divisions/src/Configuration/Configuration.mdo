@@ -47,6 +47,7 @@
   <styleItems>StyleItem.ИтогиФон</styleItems>
   <styleItems>StyleItem.ПоясняющийТекст</styleItems>
   <styleItems>StyleItem.ТекстИнформационнойНадписи</styleItems>
+  <styleItems>StyleItem.ФонУправляющегоПоля</styleItems>
   <styleItems>StyleItem.ЦветТекстаНевыбраннойКартинки</styleItems>
   <styleItems>StyleItem.ЦветТекстаПроблема</styleItems>
   <styleItems>StyleItem.ЦветФонаВыделения</styleItems>
@@ -81,15 +82,21 @@
   <roles>Role.RA_AdditionalFields_ЧтениеСправочниковBayer</roles>
   <roles>Role.ПолныеПрава</roles>
   <commonModules>CommonModule.RA_AdditionalFields_ИзменениеИнтерфейсаФорм</commonModules>
+  <commonModules>CommonModule.МодификацияКонфигурацииПереопределяемый</commonModules>
   <commonModules>CommonModule.РасчетСебестоимостиПроведениеДокументов</commonModules>
   <commonModules>CommonModule.РеализацияТоваровУслугЛокализация</commonModules>
+  <functionalOptions>FunctionalOption.ИспользоватьНаборы</functionalOptions>
   <definedTypes>DefinedType.GTIN</definedTypes>
+  <definedTypes>DefinedType.Артикул</definedTypes>
   <definedTypes>DefinedType.ДенежнаяСуммаЛюбогоЗнака</definedTypes>
+  <definedTypes>DefinedType.ДенежнаяСуммаНеотрицательная</definedTypes>
+  <definedTypes>DefinedType.Цена</definedTypes>
   <commonCommands>CommonCommand.ЗадачиПоПредмету</commonCommands>
   <commonCommands>CommonCommand.ИсторияИзменений</commonCommands>
   <commonCommands>CommonCommand.МоиЗаметкиПоПредмету</commonCommands>
   <constants>Constant.RA_AdditionalFields_ГФУ_ProfitCenterПоУмолчанию</constants>
   <constants>Constant.RA_AdditionalFields_ИспользоватьОтборГрузополучателяПоПартнеру</constants>
+  <constants>Constant.ИспользоватьНаборы</constants>
   <commonForms>CommonForm.РеквизитыПечатиРеализации</commonForms>
   <catalogs>Catalog.RA_AdditionalFields_Brands</catalogs>
   <catalogs>Catalog.RA_AdditionalFields_MaterialGroups</catalogs>
@@ -103,8 +110,10 @@
   <catalogs>Catalog.RA_AdditionalFields_StrategicBusinessEntities</catalogs>
   <catalogs>Catalog.RA_AdditionalFields_TradingPartners</catalogs>
   <catalogs>Catalog.БанковскиеСчетаКонтрагентов</catalogs>
+  <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.ВидыАлкогольнойПродукции</catalogs>
   <catalogs>Catalog.ВидыНоменклатуры</catalogs>
+  <catalogs>Catalog.ВидыЦен</catalogs>
   <catalogs>Catalog.ГруппыАналитическогоУчетаНоменклатуры</catalogs>
   <catalogs>Catalog.ГруппыДоступаНоменклатуры</catalogs>
   <catalogs>Catalog.ГруппыФинансовогоУчетаНоменклатуры</catalogs>
@@ -119,17 +128,24 @@
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Марки</catalogs>
   <catalogs>Catalog.НаборыУпаковок</catalogs>
+  <catalogs>Catalog.Назначения</catalogs>
   <catalogs>Catalog.НаправленияДеятельности</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.НоменклатураКонтрагентов</catalogs>
   <catalogs>Catalog.ОбщероссийскийКлассификаторПродукции</catalogs>
+  <catalogs>Catalog.ОбъектыРасчетов</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.Партнеры</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.ПричиныОтменыЗаказовПоставщикам</catalogs>
   <catalogs>Catalog.Производители</catalogs>
   <catalogs>Catalog.РейтингиПродажНоменклатуры</catalogs>
+  <catalogs>Catalog.СделкиСКлиентами</catalogs>
   <catalogs>Catalog.СезонныеГруппы</catalogs>
+  <catalogs>Catalog.СерииНоменклатуры</catalogs>
   <catalogs>Catalog.СкладскиеГруппыНоменклатуры</catalogs>
   <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.СоглашенияСКлиентами</catalogs>
   <catalogs>Catalog.СпособыОбеспеченияПотребностей</catalogs>
   <catalogs>Catalog.СтавкиНДС</catalogs>
   <catalogs>Catalog.СтраныМира</catalogs>
@@ -143,11 +159,13 @@
   <catalogs>Catalog.ШаблоныЭтикетокИЦенников</catalogs>
   <documents>Document.ЗаказКлиента</documents>
   <documents>Document.ЗаказПоставщику</documents>
+  <documents>Document.КорректировкаРеализации</documents>
   <documents>Document.ПриобретениеТоваровУслуг</documents>
   <documents>Document.РеализацияТоваровУслуг</documents>
   <enums>Enum.ВариантыВыбытияМаркируемойПродукции</enums>
   <enums>Enum.ВариантыИспользованияХарактеристикНоменклатуры</enums>
   <enums>Enum.ВариантыОтправкиЭлектронногоЧекаПокупателю</enums>
+  <enums>Enum.ВариантыОтраженияКорректировокРеализаций</enums>
   <enums>Enum.ВариантыОтраженияНеотфактурованныхПоставокНУ</enums>
   <enums>Enum.ВариантыОформленияПродажи</enums>
   <enums>Enum.ВидыКиЗГИСМ</enums>
@@ -175,4 +193,7 @@
   <enums>Enum.ЮрФизЛицо</enums>
   <informationRegisters>InformationRegister.ЛицевыеСчетаСотрудниковПоЗарплатнымПроектам</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Закупки</accumulationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СтатьиАктивовПассивов</chartsOfCharacteristicTypes>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СтатьиДоходов</chartsOfCharacteristicTypes>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СтатьиРасходов</chartsOfCharacteristicTypes>
 </mdclass:Configuration>

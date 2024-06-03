@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="40da3560-43cf-4e0d-a7a8-5391004dad17" extendedConfigurationObject="8bd9f000-83c9-4a48-8166-2691b6f02183">
+  <producedTypes>
+    <objectType typeId="29142be2-0764-4bec-babf-57ce300b31f0" valueTypeId="7fa6153a-c06d-4521-8cef-8b695bdd9bd2"/>
+    <refType typeId="9f183dbb-40bf-443a-8d87-790338fe822d" valueTypeId="cd65f02c-585e-46cf-87b0-c26ab73c9659"/>
+    <selectionType typeId="a307dc16-2501-4080-a266-60787e7233bf" valueTypeId="43aa7686-b6df-4618-ab07-d861503fb37a"/>
+    <listType typeId="657204c2-0886-4b69-8226-62147cccba16" valueTypeId="354b507c-c87b-4a99-b2e3-761f5eb0ab24"/>
+    <managerType typeId="98c90cd1-53e5-4c4b-baf9-8fa748de8c17" valueTypeId="393f96ad-5537-4c66-aa0e-e84741fdb2b9"/>
+  </producedTypes>
+  <name>ЗаказПоставщику</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="48b4519c-a0d3-4598-92cd-27d6d16bf0a9">
+    <name>RA_AdditionalFields_Requisitioner</name>
+    <synonym>
+      <key>ru</key>
+      <value>Requisitioner</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+    </extension>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="28b6c591-b1cb-4f85-b330-a05feb95d706" extendedConfigurationObject="bc58fa28-4322-4ba4-b531-09deb5308a2d">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <tabularSections uuid="2959cdde-7e14-4d09-aa83-f942c3000d1f" extendedConfigurationObject="dcee393b-d797-4bfd-be64-3bc288149128">
+    <producedTypes>
+      <objectType typeId="8333cab9-1ce6-4a38-9a66-78d07e144310" valueTypeId="f521aa11-07a8-4923-89b3-9ffd6a83b53b"/>
+      <rowType typeId="943d2183-dead-4327-aa52-ab8ca9df499e" valueTypeId="970e4e55-5a3e-486d-ac86-fa35c30e050a"/>
+    </producedTypes>
+    <name>Товары</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="a93505f7-4882-4daa-a164-cad7b57cb13f">
+      <name>RA_AdditionalFields_CostCentre</name>
+      <synonym>
+        <key>ru</key>
+        <value>Cost centre</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <synonym>Extended</synonym>
+      </extension>
+      <type>
+        <types>CatalogRef.СтруктураПредприятия</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

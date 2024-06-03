@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="fe80f6b3-2837-4077-9c55-a35b07edc73a" extendedConfigurationObject="2914af3c-ad8f-4719-8871-98d1a256b3fb">
+  <producedTypes>
+    <objectType typeId="32906fc2-be34-4cda-b7b2-7296d2c893b9" valueTypeId="6e2f5577-426c-45ba-b1ac-d5f8dcb47b75"/>
+    <refType typeId="ad3510dc-7b36-47c2-bbd2-d78c26c5fc8f" valueTypeId="47c5f52d-3977-49a7-bb84-d1ba8786d6bc"/>
+    <selectionType typeId="3aaa454b-e767-4843-bf08-5d2199dc375d" valueTypeId="bb938f87-e6d9-460c-b5c4-461a09cb2f57"/>
+    <listType typeId="cfcbe519-99d9-468c-bad2-196e1e0df6b8" valueTypeId="c8108955-0c39-43c8-99cf-e4b1c2cf7693"/>
+    <managerType typeId="1985a746-5705-4b9a-aeb2-6960d0108718" valueTypeId="2cdd311f-c76d-44f7-a36b-6a8ce3eca1d1"/>
+  </producedTypes>
+  <name>СтруктураПредприятия</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <objectModule>Extended</objectModule>
+    <managerModule>Extended</managerModule>
+  </extension>
+  <attributes uuid="22b623c1-7b01-4bcd-ba78-331614a016b7">
+    <name>RA_AdditionalFields_Division</name>
+    <synonym>
+      <key>ru</key>
+      <value>Division</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+    </extension>
+    <type>
+      <types>CatalogRef.НаправленияДеятельности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9ecd14f6-a3ee-4ae9-ab1c-971c03aa0317">
+    <name>RA_AdditionalFields_ReportingUnit</name>
+    <synonym>
+      <key>ru</key>
+      <value>Reporting unit</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+    </extension>
+    <type>
+      <types>CatalogRef.RA_AdditionalFields_ReportingUnits</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ce84957e-6cdd-4794-81f4-e7c1ac9e6933">
+    <name>RA_AdditionalFields_StrategicBusinessEntity</name>
+    <synonym>
+      <key>ru</key>
+      <value>Strategic business entity</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+    </extension>
+    <type>
+      <types>CatalogRef.RA_AdditionalFields_StrategicBusinessEntities</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f410b2f4-b7f5-41ae-8d81-dab71013763e">
+    <name>RA_AdditionalFields_ГФУ_ProfitCenter</name>
+    <synonym>
+      <key>ru</key>
+      <value>ГФУ profit center</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+    </extension>
+    <type>
+      <types>CatalogRef.ГруппыФинансовогоУчетаНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="56dbfc08-25e5-4ebb-a535-ec34aed6741c">
+    <name>RA_AdditionalFields_КодSAP</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код SAP</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>18</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6f44b90e-42eb-44e0-ad2e-710f8cbb77e2">
+    <name>RA_AdditionalFields_ItsCostCentre</name>
+    <synonym>
+      <key>ru</key>
+      <value>Cost centre</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+    </extension>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="ffa9fdb0-8b98-4cc6-8cb7-c7ef94bf1ed0" extendedConfigurationObject="ca96cd59-3219-4a07-86d2-7d0f10d6008c">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

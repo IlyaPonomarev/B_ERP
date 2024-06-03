@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9b7f21c4-375f-4f22-920d-a6a177aa64ed" extendedConfigurationObject="369232c9-b721-40af-a244-f6588346f044">
+  <producedTypes>
+    <objectType typeId="309e74f8-a442-4ec0-a0d9-c2b4738e7645" valueTypeId="e15e1402-9e88-401d-ac93-79df945f03d4"/>
+    <refType typeId="f2ca5853-29f3-495f-b0a0-6d6a6a871e70" valueTypeId="e38e2eca-6815-41a4-bcbe-a9605c3f1f19"/>
+    <selectionType typeId="fc86a792-2589-418a-830e-0e819d7deb8f" valueTypeId="52636009-79c0-4ef2-9f96-65df4e13521c"/>
+    <listType typeId="e06be9d9-b776-468e-b805-dcf02fc0c997" valueTypeId="f664ee37-b85b-40db-a6f7-cc2dd040b9f4"/>
+    <managerType typeId="949a6a94-d2c4-4a56-af8a-d36fca96e0f1" valueTypeId="0df54ec4-7db3-4fa5-868c-59530072ac56"/>
+  </producedTypes>
+  <name>Производители</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="64178049-a3b6-49b7-9142-7fe8b6561dbd">
+    <name>RA_AdditionalFields_Адрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

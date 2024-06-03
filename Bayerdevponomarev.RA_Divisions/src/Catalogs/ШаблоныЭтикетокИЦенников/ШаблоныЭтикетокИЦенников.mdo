@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="56d51949-6cfd-4749-be74-1bd807ee9958" extendedConfigurationObject="f6ecc26c-bdc7-4d8e-81ef-5bbffd7ce8cf">
+  <producedTypes>
+    <objectType typeId="9bc8c4b7-55c0-44d7-ad78-9a93711503bf" valueTypeId="4196aa5d-ee0b-40a1-bff0-fafc19d80437"/>
+    <refType typeId="461bcad0-e9f0-4e3b-813f-23500b7dd196" valueTypeId="641b0b4c-7275-44e9-bb59-659455c60350"/>
+    <selectionType typeId="250358d9-2597-43f3-8fcb-ad20dd3e0fbe" valueTypeId="c3f2cc62-69ae-4600-87fc-90b1be3cb27b"/>
+    <listType typeId="ca30ee31-f429-4d7f-b934-2a1d7a80a6d3" valueTypeId="08174a16-faa4-42bf-92be-50608dce270d"/>
+    <managerType typeId="c961735c-3cde-40af-ad18-155390059cab" valueTypeId="349c6cb8-ee64-4cff-b76c-e86f585ff581"/>
+  </producedTypes>
+  <name>ШаблоныЭтикетокИЦенников</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

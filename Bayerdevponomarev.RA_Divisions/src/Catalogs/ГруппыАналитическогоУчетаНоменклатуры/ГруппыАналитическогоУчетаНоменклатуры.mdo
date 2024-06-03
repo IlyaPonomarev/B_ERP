@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ed23cd01-11a8-46c9-a4c1-1286e9373b25" extendedConfigurationObject="029cd47a-7372-4034-b645-48f00dc52f46">
+  <producedTypes>
+    <objectType typeId="0ebd2189-335f-4efc-a71a-7d6d961d7879" valueTypeId="dcd6e368-9598-4a63-9805-18c69bc9de25"/>
+    <refType typeId="70a58853-a7f3-49ff-a301-c62cee510d61" valueTypeId="f6a72e2c-fd2a-47af-b2ea-31fceb29dd91"/>
+    <selectionType typeId="7860ae58-031e-4a7d-b244-6b1d51e8589d" valueTypeId="11c48292-d9ff-45c3-9976-fe068a53638a"/>
+    <listType typeId="abc86968-9c10-4588-8b48-ff11d529cae0" valueTypeId="d0f257fb-9936-4f14-8f82-4096198f0e75"/>
+    <managerType typeId="4d4190af-8772-4c3a-a0d5-a66a5786da56" valueTypeId="9a02af3e-b2e6-496a-929e-a11e3986b898"/>
+  </producedTypes>
+  <name>ГруппыАналитическогоУчетаНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

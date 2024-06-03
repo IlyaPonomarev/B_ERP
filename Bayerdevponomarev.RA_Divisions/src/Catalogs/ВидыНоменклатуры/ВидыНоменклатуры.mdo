@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="dd56bc55-9d51-4c9c-845d-a738e0e56aa5" extendedConfigurationObject="f3b86010-6dc9-4bd6-9fda-850ce2f2ea58">
+  <producedTypes>
+    <objectType typeId="e6571bc8-3672-4efa-9d7c-2bfe34a2633c" valueTypeId="c7214f0e-9d20-4cf2-89ec-8ca8af9f6f8d"/>
+    <refType typeId="5a055765-2aa2-4930-9219-ad1eeb828bf7" valueTypeId="b48942dd-2db3-4739-add7-ca75dfd8ce5e"/>
+    <selectionType typeId="6a70a147-cc2a-4716-8433-1b8f5d935917" valueTypeId="3337798a-7d25-485a-9ee3-68332313a63e"/>
+    <listType typeId="8b895cb2-9eed-49f8-85e5-6c0841723d04" valueTypeId="0250e567-5121-45e8-affc-0b6b00b1bfa3"/>
+    <managerType typeId="e43e3316-3fa2-49c6-90f0-f1e08124a540" valueTypeId="9808bf0d-5c21-4a90-930d-d5dad692e53b"/>
+  </producedTypes>
+  <name>ВидыНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="898ffb2b-fb6f-43a8-876d-b55e4aa37ca5" extendedConfigurationObject="aef15f0f-9fa4-4bc5-a195-0c0fe7bcec89">
+    <name>ШаблонЭтикетки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ШаблоныЭтикетокИЦенников</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="23473d71-782f-4c7f-b3b6-d4d942377cc9" extendedConfigurationObject="256af2db-4492-4f45-89a9-36f035e9d95a">
+    <name>ШаблонЦенника</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ШаблоныЭтикетокИЦенников</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

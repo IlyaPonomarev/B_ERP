@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6c1e8bb0-c2f2-44d8-9b85-7f91731fe771" extendedConfigurationObject="97a5f1f4-6332-4100-9848-6c0907797835">
+  <producedTypes>
+    <refType typeId="bd28e202-e712-4ce5-aea8-6ab2c3fe0448" valueTypeId="b7f07ae3-41c4-4aa9-8955-59a4d388218e"/>
+    <listType typeId="019c3c5d-cd6b-4778-85be-e9cd272baf58" valueTypeId="ca8fad85-8878-423b-a307-acb872e61309"/>
+    <managerType typeId="dca9a1cc-d387-46e6-afd4-f99a1518219d" valueTypeId="adc85e44-6b6a-4fc9-bd77-eecb27d47ddc"/>
+  </producedTypes>
+  <name>ОтветственныеЛицаОрганизаций</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="cbfce639-2660-497e-a4fb-0b76e47a9685" extendedConfigurationObject="6149f789-afe7-422c-a493-7ed022301a1f">
+    <name>Руководитель</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="60297c16-80dd-47d6-a291-5936f877eb44" extendedConfigurationObject="b684c73e-a0ee-430e-b257-6a45d3bfa9e8">
+    <name>ГлавныйБухгалтер</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

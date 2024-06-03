@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="30f15bd0-1fbd-49e8-8937-2a06f381fcb7" extendedConfigurationObject="cdf52ac4-13d7-42dc-b172-94c09cb7945e">
+  <producedTypes>
+    <refType typeId="f68d7fa5-1211-491b-86c1-9d87ff7682d1" valueTypeId="651a5606-afeb-4dc1-b6a2-5ee3f144a2be"/>
+    <listType typeId="006030e4-1b6c-4feb-8167-fcb2fc0603a6" valueTypeId="954024b3-c0c7-464f-a8c1-a477055417dd"/>
+    <managerType typeId="402fa6e6-b86d-4b22-be2f-f8274b35dbbf" valueTypeId="9a09623f-d751-4ca6-aa0f-76ccc2108799"/>
+  </producedTypes>
+  <name>ТипыСкладов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="149035d5-8909-4453-865c-192c5ec1af66" extendedConfigurationObject="94e792b8-eb3d-476e-bc10-6552e2d0147c">
+    <name>ОптовыйСклад</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="d6ca9fb0-6b86-4dcb-ac2d-70c433ca7d48" extendedConfigurationObject="1b09dfb7-8fec-4ddf-8f7f-2285584cea0b">
+    <name>РозничныйМагазин</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

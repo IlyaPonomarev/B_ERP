@@ -36,6 +36,7 @@
 	НовыйЭлемент.Вид = ВидПоляФормы.ПолеВвода;
 	НовыйЭлемент.ПутьКДанным = "Объект.Товары.RA_AdditionalFields_CostCentre";
 
+	//@skip-check bsl-legacy-check-static-feature-access-for-unknown-left-part
 	НовыйЭлемент.ПараметрыВыбора = Новый ФиксированныйМассив(ОбщегоНазначенияКлиентСервер.ЗначениеВМассиве(
 		Новый ПараметрВыбора("Отбор.RA_AdditionalFields_ItsCostCentre", Истина)));
 		

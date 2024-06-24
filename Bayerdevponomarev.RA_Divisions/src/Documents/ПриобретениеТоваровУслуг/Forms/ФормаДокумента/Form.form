@@ -1976,43 +1976,6 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
-              <choiceParameterLinks>
-                <name>Отбор.ВалютаВзаиморасчетов</name>
-                <datapath xsi:type="form:DataPath">
-                  <segments>0</segments>
-                </datapath>
-              </choiceParameterLinks>
-              <choiceParameterLinks>
-                <name>Отбор.Контрагент</name>
-                <datapath xsi:type="form:DataPath">
-                  <segments>0</segments>
-                </datapath>
-              </choiceParameterLinks>
-              <choiceParameterLinks>
-                <name>Отбор.Организация</name>
-                <datapath xsi:type="form:DataPath">
-                  <segments>0</segments>
-                </datapath>
-              </choiceParameterLinks>
-              <choiceParameterLinks>
-                <name>Отбор.Партнер</name>
-                <datapath xsi:type="form:DataPath">
-                  <segments>0</segments>
-                </datapath>
-              </choiceParameterLinks>
-              <choiceParameterLinks>
-                <name>Соглашение</name>
-                <changeMode>DontChange</changeMode>
-                <datapath xsi:type="form:DataPath">
-                  <segments>0</segments>
-                </datapath>
-              </choiceParameterLinks>
-              <choiceParameterLinks>
-                <name>Отбор.ХозяйственнаяОперация</name>
-                <datapath xsi:type="form:DataPath">
-                  <segments>0</segments>
-                </datapath>
-              </choiceParameterLinks>
               <choiceParameters>
                 <name>Отбор.Статус</name>
                 <value xsi:type="form:FormChoiceListDesTimeValue">
@@ -4805,26 +4768,6 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
-            <choiceParameterLinks>
-              <name>Номенклатура</name>
-              <changeMode>DontChange</changeMode>
-              <datapath xsi:type="form:DataPath">
-                <segments>0</segments>
-              </datapath>
-            </choiceParameterLinks>
-            <choiceParameterLinks>
-              <name>Отбор.СтранаПроисхождения</name>
-              <datapath xsi:type="form:DataPath">
-                <segments>0</segments>
-              </datapath>
-            </choiceParameterLinks>
-            <choiceParameterLinks>
-              <name>Характеристика</name>
-              <changeMode>DontChange</changeMode>
-              <datapath xsi:type="form:DataPath">
-                <segments>0</segments>
-              </datapath>
-            </choiceParameterLinks>
           </extInfo>
         </items>
         <items xsi:type="form:FormField">

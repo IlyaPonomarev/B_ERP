@@ -117,12 +117,6 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
-            <choiceParameterLinks>
-              <name>Отбор.Владелец</name>
-              <datapath xsi:type="form:DataPath">
-                <segments>0</segments>
-              </datapath>
-            </choiceParameterLinks>
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
@@ -170,12 +164,6 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
-            <choiceParameterLinks>
-              <name>Отбор.Партнер</name>
-              <datapath xsi:type="form:DataPath">
-                <segments>0</segments>
-              </datapath>
-            </choiceParameterLinks>
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
@@ -231,12 +219,6 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
-            <choiceParameterLinks>
-              <name>Отбор.Владелец</name>
-              <datapath xsi:type="form:DataPath">
-                <segments>0</segments>
-              </datapath>
-            </choiceParameterLinks>
           </extInfo>
         </items>
         <visible>true</visible>
@@ -324,12 +306,6 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
-            <choiceParameterLinks>
-              <name>Отбор.Владелец</name>
-              <datapath xsi:type="form:DataPath">
-                <segments>0</segments>
-              </datapath>
-            </choiceParameterLinks>
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
@@ -440,12 +416,6 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
-            <choiceParameterLinks>
-              <name>Отбор.Владелец</name>
-              <datapath xsi:type="form:DataPath">
-                <segments>0</segments>
-              </datapath>
-            </choiceParameterLinks>
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
@@ -493,20 +463,6 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
-            <choiceParameterLinks>
-              <name>Отбор.Дата</name>
-              <changeMode>DontChange</changeMode>
-              <datapath xsi:type="form:DataPath">
-                <segments>0</segments>
-              </datapath>
-            </choiceParameterLinks>
-            <choiceParameterLinks>
-              <name>Отбор.Владелец</name>
-              <changeMode>DontChange</changeMode>
-              <datapath xsi:type="form:DataPath">
-                <segments>0</segments>
-              </datapath>
-            </choiceParameterLinks>
             <choiceParameters>
               <name>Отбор.ОтветственноеЛицо</name>
               <value xsi:type="form:FormChoiceListDesTimeValue">
@@ -562,20 +518,6 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
-            <choiceParameterLinks>
-              <name>Отбор.Дата</name>
-              <changeMode>DontChange</changeMode>
-              <datapath xsi:type="form:DataPath">
-                <segments>0</segments>
-              </datapath>
-            </choiceParameterLinks>
-            <choiceParameterLinks>
-              <name>Отбор.Владелец</name>
-              <changeMode>DontChange</changeMode>
-              <datapath xsi:type="form:DataPath">
-                <segments>0</segments>
-              </datapath>
-            </choiceParameterLinks>
             <choiceParameters>
               <name>Отбор.ОтветственноеЛицо</name>
               <value xsi:type="form:FormChoiceListDesTimeValue">

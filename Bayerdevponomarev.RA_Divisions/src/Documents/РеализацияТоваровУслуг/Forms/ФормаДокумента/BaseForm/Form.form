@@ -4702,36 +4702,6 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
-            <choiceParameterLinks>
-              <name>Отбор.ЦенаВключаетНДС</name>
-              <datapath xsi:type="form:DataPath">
-                <segments>0</segments>
-              </datapath>
-            </choiceParameterLinks>
-            <choiceParameterLinks>
-              <name>Партнер</name>
-              <datapath xsi:type="form:DataPath">
-                <segments>0</segments>
-              </datapath>
-            </choiceParameterLinks>
-            <choiceParameterLinks>
-              <name>Соглашение</name>
-              <datapath xsi:type="form:DataPath">
-                <segments>0</segments>
-              </datapath>
-            </choiceParameterLinks>
-            <choiceParameterLinks>
-              <name>ИспользоватьСоглашенияСКлиентами</name>
-              <datapath xsi:type="form:DataPath">
-                <segments>0</segments>
-              </datapath>
-            </choiceParameterLinks>
-            <choiceParameterLinks>
-              <name>ИспользуетсяЦенообразование25</name>
-              <datapath xsi:type="form:DataPath">
-                <segments>0</segments>
-              </datapath>
-            </choiceParameterLinks>
             <choiceParameters>
               <name>ВыводитьПроизвольныйВидЦен</name>
               <value xsi:type="form:FormChoiceListDesTimeValue">
@@ -10722,12 +10692,6 @@ details</value>
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
-              <choiceParameterLinks>
-                <name>Отбор.Владелец</name>
-                <datapath xsi:type="form:DataPath">
-                  <segments>0</segments>
-                </datapath>
-              </choiceParameterLinks>
             </extInfo>
           </items>
           <items xsi:type="form:FormField">

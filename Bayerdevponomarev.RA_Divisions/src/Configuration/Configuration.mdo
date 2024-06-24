@@ -29,10 +29,10 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>ООО &quot;Рациональная Автоматизация&quot;</vendor>
-  <version>2024-05-21 Пономарев И.О.</version>
+  <version>2024-06-24 Пономарев И.О.</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
-  <compatibilityMode>8.3.21</compatibilityMode>
+  <compatibilityMode>8.3.24</compatibilityMode>
   <languages uuid="e2a6aae5-c2c5-4346-b42d-14c1be35666c">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>

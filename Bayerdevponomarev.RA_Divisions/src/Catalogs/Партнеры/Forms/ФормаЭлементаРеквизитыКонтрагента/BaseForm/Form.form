@@ -4112,11 +4112,6 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
-            <typeLink>
-              <datapath xsi:type="form:DataPath">
-                <segments>0</segments>
-              </datapath>
-            </typeLink>
           </extInfo>
         </items>
         <visible>true</visible>

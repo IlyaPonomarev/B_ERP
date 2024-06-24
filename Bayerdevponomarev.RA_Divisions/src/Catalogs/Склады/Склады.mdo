@@ -51,6 +51,24 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="47cefdbd-3a07-4924-8780-eb2423371eb5">
+    <name>RA_AdditionalFields_НаименованиеПолное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование полное</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>300</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="0eee3349-0db3-428b-9d8a-e69f9ec6d230" extendedConfigurationObject="97b70e9d-3bbc-4dc5-8215-dc7f0fdbb707">
     <name>ФормаЭлемента</name>
     <objectBelonging>Adopted</objectBelonging>

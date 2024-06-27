@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b087619c-0df0-4b96-a8f6-dc77bcc44ed6">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b087619c-0df0-4b96-a8f6-dc77bcc44ed6">
   <producedTypes>
     <objectType typeId="8bf718fd-852e-41c7-997f-790e8c845556" valueTypeId="ef5c6968-60cf-4dba-adf2-06e38b960f82"/>
     <refType typeId="94676ccb-25c8-4306-9e3a-2ccee5c08073" valueTypeId="125e6938-5e97-4c0e-93e8-e077314ed261"/>
@@ -40,4 +40,19 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="e46d1273-ff82-43c2-9899-eae60cf99dbf">
+    <name>Blocked</name>
+    <synonym>
+      <key>ru</key>
+      <value>Blocked</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>

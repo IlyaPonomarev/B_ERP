@@ -189,6 +189,7 @@
   <enums>Enum.ТипыСкладов</enums>
   <enums>Enum.ХозяйственныеОперации</enums>
   <enums>Enum.ЮрФизЛицо</enums>
+  <enums>Enum.ВыборГруппыСкладов</enums>
   <informationRegisters>InformationRegister.ЛицевыеСчетаСотрудниковПоЗарплатнымПроектам</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Закупки</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СтатьиАктивовПассивов</chartsOfCharacteristicTypes>

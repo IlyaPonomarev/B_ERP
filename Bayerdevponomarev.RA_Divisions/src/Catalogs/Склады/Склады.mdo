@@ -49,6 +49,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="47cefdbd-3a07-4924-8780-eb2423371eb5">
@@ -89,6 +90,14 @@
   </attributes>
   <forms uuid="0eee3349-0db3-428b-9d8a-e69f9ec6d230" extendedConfigurationObject="97b70e9d-3bbc-4dc5-8215-dc7f0fdbb707">
     <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="82f9ddca-fbb5-4ea7-9365-3d4fe2d7e4eb" extendedConfigurationObject="9da881a4-852e-4a9a-afd0-9f3d788919d8">
+    <name>ФормаГруппы</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFormExtension">
       <extendedConfigurationObject>Checked</extendedConfigurationObject>

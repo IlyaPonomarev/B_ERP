@@ -356,6 +356,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="f7488500-c157-4f67-ae24-1f6db38a5bfb">
+    <name>RA_AdditionalFields_СтатьяРасходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья расходов</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.СтатьиРасходов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="2e9ba27e-e82c-4e3a-ba42-9dd2a956a728" extendedConfigurationObject="c5d6e01c-3f06-4df0-8eca-aaf51274cbd2">
     <name>АлкогольнаяПродукцияВоВскрытойТаре</name>
     <objectBelonging>Adopted</objectBelonging>
@@ -368,7 +383,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="144334cd-3927-40b7-8b2c-78e65f1b3921" extendedConfigurationObject="722c3d13-753d-4b4f-82b9-d41340f96d79">
     <name>Артикул</name>
@@ -385,7 +399,6 @@
         </stringQualifiers>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="e70d6569-2f3b-4550-8820-96083e3ca22b" extendedConfigurationObject="9910bbfb-58f0-4113-bd8d-d3d111a338a3">
     <name>ВариантОформленияПродажи</name>
@@ -399,7 +412,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="f9ea4363-d0aa-442f-ac70-539716091e53" extendedConfigurationObject="297bcbe1-b18d-4ad5-be5b-e4c40bb584b8">
     <name>ВесЕдиницаИзмерения</name>
@@ -413,7 +425,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="0da0995f-2461-4269-b456-c96b06ef5e1a" extendedConfigurationObject="4157c17c-622b-4180-8e2d-841aba3d2ccb">
     <name>ВесЗнаменатель</name>
@@ -432,7 +443,6 @@
         </numberQualifiers>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="8387f74e-054a-422c-bb10-e545d91a5cf2" extendedConfigurationObject="4694b6cd-56bb-4c01-afe4-9e549e4eeb21">
     <name>ВесИспользовать</name>
@@ -446,7 +456,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="4e1ae20f-bb97-4f76-b4fd-3bfa9b7fe1d2" extendedConfigurationObject="f2e5c9ce-045f-438e-abf0-5ce202db69ea">
     <name>ВестиУчетПоГТД</name>
@@ -460,7 +469,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="4b6650be-4c34-4c4e-9a30-b686e1d7559a" extendedConfigurationObject="490b5d9e-aae3-4fb8-b344-cbdbb5fccbab">
     <name>ВестиУчетСертификатовНоменклатуры</name>
@@ -474,7 +482,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="47e63de8-f8ae-4116-8876-1d4d6a97ee4d" extendedConfigurationObject="2ab0f88e-9b40-424b-9bbb-54bb1b9c9da1">
     <name>ВесЧислитель</name>
@@ -493,7 +500,6 @@
         </numberQualifiers>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="e6c49a68-d8e5-41c6-be14-35358ea37be0" extendedConfigurationObject="c1860790-d9c6-47c6-a2fd-e10c14264c20">
     <name>ВидАлкогольнойПродукции</name>
@@ -507,7 +513,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="8a9b1e72-7904-480e-8990-2e22b1f56ad9" extendedConfigurationObject="09a12ed1-441d-49a8-9f36-2093735e8d37">
     <name>ВидНоменклатуры</name>
@@ -521,7 +526,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="c2fcab45-f7e2-4352-98e9-0bafc86086cb" extendedConfigurationObject="0aac2d69-9ab2-43f6-9301-338f69242fe3">
     <name>ГруппаАналитическогоУчета</name>
@@ -535,7 +539,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="1fa70f54-3379-4ec9-b038-6d13f66914f8" extendedConfigurationObject="b6e29d5d-1a98-4480-a5cf-63f1b1de2174">
     <name>ГруппаДоступа</name>
@@ -549,7 +552,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="42602eb6-5302-46f3-a3bd-0cf8b79ee66c" extendedConfigurationObject="97ef8ff9-68db-45ee-91be-54bfb600b3a1">
     <name>ГруппаФинансовогоУчета</name>
@@ -563,7 +565,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="288be367-37a2-448f-9078-5a4e7113346f" extendedConfigurationObject="80ad480b-dc9c-422d-8725-0a504c514e30">
     <name>ДлинаЕдиницаИзмерения</name>
@@ -577,7 +578,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="63e8a16e-a11e-4572-8343-e0c3c6716d6d" extendedConfigurationObject="9706c59f-ea5a-4c76-913c-ff991b90023f">
     <name>ДлинаЗнаменатель</name>
@@ -596,7 +596,6 @@
         </numberQualifiers>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="3480dee1-1442-4d30-8b1e-5ae422a5eed6" extendedConfigurationObject="328e56d3-8881-4610-8407-c3252749a545">
     <name>ДлинаИспользовать</name>
@@ -610,7 +609,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="ede935df-fbd5-4050-ba40-0f333edf6255" extendedConfigurationObject="844aff1e-9278-4a37-8ced-45e3a856c7d8">
     <name>ДлинаЧислитель</name>
@@ -629,7 +627,6 @@
         </numberQualifiers>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="f2ff08a0-05d3-4aad-956c-d1b6cb9a2458" extendedConfigurationObject="f841176f-2509-460b-a5db-829062949dbe">
     <name>ЕдиницаДляОтчетов</name>
@@ -643,7 +640,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="703d8f24-2f22-4395-8a99-78f5bda4917b" extendedConfigurationObject="3d295926-ac21-4f62-b76e-64c929f1fc0e">
     <name>ЕдиницаИзмерения</name>
@@ -657,7 +653,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="3c904160-3672-44eb-b8a6-25178f3dd5e2" extendedConfigurationObject="f8a2b5fe-47bb-4b91-8735-25f81cec9c55">
     <name>ЕдиницаИзмеренияСрокаГодности</name>
@@ -671,7 +666,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="a8a6af7b-9c80-48d3-aafe-9eb4dbba2dbe" extendedConfigurationObject="f829034c-cd8d-455f-9808-71609e3d7448">
     <name>ИмпортнаяАлкогольнаяПродукция</name>
@@ -685,7 +679,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="b78c5a30-6d4d-49d4-b9ed-13213955a6ce" extendedConfigurationObject="0ad62bbb-21aa-4934-a430-a1bd6aa95383">
     <name>ИспользованиеХарактеристик</name>
@@ -699,7 +692,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="b4f08589-71dc-4f28-a985-c8862ee8674e" extendedConfigurationObject="9150942a-fbcc-4424-9dff-e7434fa7acf6">
     <name>ИспользоватьУпаковки</name>
@@ -713,7 +705,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="7f8a8528-606e-4240-b263-2bc4692a29f2" extendedConfigurationObject="d9bce4f6-e8c7-467c-ba46-be7ce35beaae">
     <name>Качество</name>
@@ -727,7 +718,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="2e5b65d5-e425-4f01-895a-54070056c858" extendedConfigurationObject="b063146c-e6af-4037-aa6c-74183ddb0747">
     <name>КиЗГИСМGTIN</name>
@@ -741,7 +731,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="96d70f10-e4e8-4b89-83c7-c3acdc2766a0" extendedConfigurationObject="02bc4721-0842-4309-aa9d-9918313ae3e5">
     <name>КиЗГИСМВид</name>
@@ -755,7 +744,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="0e4a4258-42f5-492b-8cb1-b1d5c30397c1" extendedConfigurationObject="45d3f51a-4610-4e98-865f-816446c48e6d">
     <name>КиЗГИСМРазмер</name>
@@ -769,7 +757,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="921f472c-6d45-4434-80db-76344db2d776" extendedConfigurationObject="4d7c4e6e-c1a5-4d3a-80c3-b6aaef93b4d9">
     <name>КиЗГИСМСпособВыпускаВОборот</name>
@@ -783,7 +770,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="0f121c58-ecdc-4677-8a85-8c8a48b48150" extendedConfigurationObject="deac0f00-4a8f-4d18-a043-7799a7111d39">
     <name>КодВидаНоменклатурнойКлассификации</name>
@@ -800,7 +786,6 @@
         </stringQualifiers>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="1a15aac1-5cc1-4a3c-a3d2-608496bd1938" extendedConfigurationObject="b84fda07-1a76-41d5-83eb-44e5f8fd56f6">
     <name>КодОКВЭД</name>
@@ -814,7 +799,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="6f0bffc7-510e-4e42-8af3-940beb16e6ea" extendedConfigurationObject="d35f8795-2621-4c70-9085-d0395e68e3b1">
     <name>КодОКВЭД2</name>
@@ -828,7 +812,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="2da0168f-6f55-416f-89bc-152d88e1e81c" extendedConfigurationObject="69435d15-4089-4ff0-9f59-8b33b64fd4b6">
     <name>КодОКП</name>
@@ -842,7 +825,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="2a600361-a867-417f-9c18-9cba53b8399b" extendedConfigurationObject="59bc316d-991d-4534-a3dc-7b045e184933">
     <name>КодОКПД2</name>
@@ -856,7 +838,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="7e9b6fbf-55bd-43ad-b7c7-ff0b0c33beb4" extendedConfigurationObject="e7519af4-5bdd-4d98-89cd-22bfbb6de83c">
     <name>КодРаздел7ДекларацииНДС</name>
@@ -870,7 +851,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="a00255ae-3e09-4d96-9bd8-45225cb511ff" extendedConfigurationObject="e8f29f3b-5f84-4216-b9c5-002926267a6a">
     <name>КодТНВЭД</name>
@@ -884,7 +864,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="80061e47-14c0-48ac-b97b-62f0d0fdea86" extendedConfigurationObject="59c128f9-339a-4b6c-b4af-d009ad62ba83">
     <name>КодТРУ</name>
@@ -901,7 +880,6 @@
         </stringQualifiers>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="5cf19cc8-2f9e-40ac-be06-c3a50aeccbd8" extendedConfigurationObject="1923d522-6866-41cc-936e-7f63593d6168">
     <name>КоллекцияНоменклатуры</name>
@@ -915,7 +893,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="c4614031-38c9-4f1c-b5f7-d3761f30c8c5" extendedConfigurationObject="9aa5f8e4-4615-4fb5-bd80-442175b9fec7">
     <name>Контрагент</name>
@@ -929,7 +906,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="f227c34d-87a1-4eb2-b2e8-9686df56d3cb" extendedConfigurationObject="4f4b89a2-af96-4368-9b39-9b2d72c26f89">
     <name>КоэффициентЕдиницыДляОтчетов</name>
@@ -948,7 +924,6 @@
         </numberQualifiers>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="447cd3ad-7a03-4815-88cc-00f1da4416e3" extendedConfigurationObject="5dd6567d-f5c8-4afe-995b-044c1ddf6f9f">
     <name>Крепость</name>
@@ -967,7 +942,6 @@
         </numberQualifiers>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="d1248aab-af47-4598-b09f-135cde1af699" extendedConfigurationObject="8a0e76aa-431a-45b5-b61a-b472761cf4df">
     <name>Марка</name>
@@ -981,7 +955,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="49985af4-62a8-44b5-932d-ebde2117b60c" extendedConfigurationObject="354586ad-9b57-448c-8414-729e323f1797">
     <name>НаборУпаковок</name>
@@ -995,7 +968,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="9435e69e-b2e3-4cdd-ade3-45fc4edba5ee" extendedConfigurationObject="064e5a5a-2e2f-47ca-9f01-32f70a8b1c1e">
     <name>НаименованиеВидаНоменклатурнойКлассификации</name>
@@ -1012,7 +984,6 @@
         </stringQualifiers>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="e542ab91-255f-48b0-9082-ea80b2b593e5" extendedConfigurationObject="0e7e0970-627b-458f-8d96-ef13c523d2b8">
     <name>НаименованиеПолное</name>
@@ -1029,7 +1000,6 @@
         </stringQualifiers>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="2b8329d7-ebe7-46a5-af91-b41f29d90347" extendedConfigurationObject="e7f05521-4de1-4e24-b672-d99e3068149a">
     <name>НоменклатураМногооборотнаяТара</name>
@@ -1043,7 +1013,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="8eeb020c-31b2-4a7e-adbe-437ca64c9c9f" extendedConfigurationObject="5f784557-f271-4f31-906e-b272497aa82e">
     <name>ОблагаетсяНДСУПокупателя</name>
@@ -1057,7 +1026,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="598aae1d-3837-4087-b490-c6a3ce4b46a5" extendedConfigurationObject="fa4fdaa8-2479-487f-89f9-8069d771bfb5">
     <name>ОбособленнаяЗакупкаПродажа</name>
@@ -1071,7 +1039,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="6070299b-1877-4ebc-ad2d-d9aa95a30279" extendedConfigurationObject="627984d9-4662-4cdf-a656-86ffbb6f16b5">
     <name>ОбъемДАЛ</name>
@@ -1090,7 +1057,6 @@
         </numberQualifiers>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="ce675626-3d06-424c-96c4-4d92bb984267" extendedConfigurationObject="692bf464-bb5f-428e-a86c-94532b57283d">
     <name>ОбъемЕдиницаИзмерения</name>
@@ -1104,7 +1070,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="1380468d-bd7a-4041-8897-ec269d4972f4" extendedConfigurationObject="4a74f579-007d-4b9e-ba77-497ec6ba3532">
     <name>ОбъемЗнаменатель</name>
@@ -1123,7 +1088,6 @@
         </numberQualifiers>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="e7120a78-1546-40a0-91ce-0a310423ba1c" extendedConfigurationObject="d446911a-136f-452b-97cc-ecc4d7650440">
     <name>ОбъемИспользовать</name>
@@ -1137,7 +1101,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="6ca00d3c-872b-428f-865c-6714bc7b3c53" extendedConfigurationObject="37b5ea19-1370-4b76-916b-6c7916a37867">
     <name>ОбъемЧислитель</name>
@@ -1156,7 +1119,6 @@
         </numberQualifiers>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="e63ed0e3-c4b6-4ec8-a0fe-64c56ee2d41d" extendedConfigurationObject="d9e8ce9b-ffce-43e7-9a6c-ee5f2b7ddbdf">
     <name>Описание</name>
@@ -1173,7 +1135,6 @@
         </stringQualifiers>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="1f0f389e-06a1-4df6-815e-36b87a69b2e2" extendedConfigurationObject="1c764d19-d5f6-4865-8324-f1f8c2be4306">
     <name>ПлощадьЕдиницаИзмерения</name>
@@ -1187,7 +1148,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="ce4e3cff-b054-4575-85a0-95e764415adb" extendedConfigurationObject="9ffe04f5-b78f-40d3-8dd7-b23eaec56b86">
     <name>ПлощадьЗнаменатель</name>
@@ -1206,7 +1166,6 @@
         </numberQualifiers>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="8e34ee24-496a-4ab7-b95a-ecefc45dca46" extendedConfigurationObject="0ddc52c5-fdd7-446f-87f0-65e364059ae9">
     <name>ПлощадьИспользовать</name>
@@ -1220,7 +1179,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="1070687c-a35f-4931-b71b-34e76d97ec22" extendedConfigurationObject="16657ac9-7e0a-4939-b977-98c8205286ad">
     <name>ПлощадьЧислитель</name>
@@ -1239,7 +1197,6 @@
         </numberQualifiers>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="d7d4e52e-f981-4398-ae66-8f1355409729" extendedConfigurationObject="ef0677e5-fa42-4425-8383-e52f1e1c63b8">
     <name>ПодакцизныйТовар</name>
@@ -1253,7 +1210,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="b621eeb2-efcd-4eec-aca6-753b08a36d6d" extendedConfigurationObject="14f913d9-b9f1-420b-acd0-b53df1aa7ee8">
     <name>ПоставляетсяВМногооборотнойТаре</name>
@@ -1267,7 +1223,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="1c87f047-2c3f-406c-b164-81f3c35d25e2" extendedConfigurationObject="0de0dee4-3635-4cfd-bf2c-a11b67bc4d0b">
     <name>Принципал</name>
@@ -1281,7 +1236,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="7bed9d13-ee50-454e-b773-79881e672918" extendedConfigurationObject="a05b5fd6-cafb-4617-8026-2bf40ef192a8">
     <name>Производитель</name>
@@ -1295,7 +1249,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="9160d36e-4ce6-452a-9326-b2f3d59c8b92" extendedConfigurationObject="3776fce9-5460-4fcc-ae41-6ad2d9da67dd">
     <name>ПроизводительИмпортерКонтрагент</name>
@@ -1309,7 +1262,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="d92716cd-4911-4cec-ac02-3a84bcc4f420" extendedConfigurationObject="e91a8d4e-4e2a-4731-a09f-9c711261b69c">
     <name>ПрослеживаемыйТовар</name>
@@ -1323,7 +1275,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="d731d12b-5d36-4b87-bca0-68d45c7f0677" extendedConfigurationObject="6abf012b-151a-4cb5-a397-160644e78dd1">
     <name>РейтингПродаж</name>
@@ -1337,7 +1288,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="302c83f2-2105-4d3d-86a9-ab32a9030df2" extendedConfigurationObject="b004545c-b888-4fcb-a40e-6a230d21ef20">
     <name>СезоннаяГруппа</name>
@@ -1351,7 +1301,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="b01da085-f8d0-4dc5-a09c-bc31dea2e590" extendedConfigurationObject="44605785-ef13-458d-a2e3-d834ef2acd32">
     <name>СкладскаяГруппа</name>
@@ -1365,7 +1314,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="c623b9be-5e8d-4a5c-b54a-aca825d04dfa" extendedConfigurationObject="88bee48a-be0a-4659-9da7-c7cc8805ecc9">
     <name>СпособОбеспеченияПотребностей</name>
@@ -1379,7 +1327,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="c7f4eb45-cc75-4f84-9938-008d9f10542f" extendedConfigurationObject="89d7230b-df08-4637-9831-7c2d762c11d0">
     <name>СрокГодности</name>
@@ -1397,7 +1344,6 @@
         </numberQualifiers>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="7dff1a60-a697-4561-95c8-ca33b9cba162" extendedConfigurationObject="67f48522-0ad7-470e-9baf-c8655912b8f8">
     <name>СтавкаНДС</name>
@@ -1411,7 +1357,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="d4c84a80-68b2-4947-9848-c4f8659da950" extendedConfigurationObject="4acf9956-9ebd-45aa-adba-2e72cbe6d63b">
     <name>СтранаПроисхождения</name>
@@ -1425,7 +1370,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="b93ac418-46cc-4ab2-95dd-6f8848060c75" extendedConfigurationObject="03b7d45e-b5d0-499d-9f8d-89a50125a1ca">
     <name>СхемаОбеспечения</name>
@@ -1439,7 +1383,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="61776934-4b18-482d-b865-c9d8d0398371" extendedConfigurationObject="1b521724-19bd-43e6-b544-b67dc4ba22b9">
     <name>ТипНоменклатуры</name>
@@ -1453,7 +1396,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="571afb4c-a2b3-4a7d-8162-7eff169b8e1e" extendedConfigurationObject="e549b54e-f1b9-4b7e-8cb6-b2c4ab98bd6a">
     <name>ТоварнаяКатегория</name>
@@ -1467,7 +1409,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="0f5247c3-b8eb-4bea-9a34-95e397ac86e7" extendedConfigurationObject="459a237b-13c1-4a0a-be0d-bb23e2ac8d18">
     <name>ХарактеристикаМногооборотнаяТара</name>
@@ -1481,7 +1422,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="5d52b8cf-c6c0-45a1-84da-af069491e570" extendedConfigurationObject="cc4cff73-3e1a-4be5-a869-4b5a03f6b4da">
     <name>ЦеноваяГруппа</name>
@@ -1495,7 +1435,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="0a1fc088-d26d-4090-953f-d653918c150d" extendedConfigurationObject="1a197782-2997-4792-99f6-5d1230c46aca">
     <name>ШаблонЦенника</name>
@@ -1509,7 +1448,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="99c57bd8-dfa0-4116-b28d-1d649f338500" extendedConfigurationObject="80bb1940-52ad-4e65-a59d-12e0437df277">
     <name>ШаблонЭтикетки</name>
@@ -1523,7 +1461,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <tabularSections uuid="1d7163ff-e2b5-4c4c-8fbc-577792edb165">
     <producedTypes>
@@ -1578,7 +1515,6 @@
           </types>
         </typeExtension>
       </extension>
-      <type/>
     </attributes>
     <attributes uuid="7440f673-4deb-4e38-ada8-287c5a3b75d2" extendedConfigurationObject="69a8926e-a3b2-4baa-bd9f-63df91084a57">
       <name>Количество</name>
@@ -1597,7 +1533,6 @@
           </numberQualifiers>
         </typeExtension>
       </extension>
-      <type/>
     </attributes>
     <attributes uuid="043432c5-a9f7-4400-8910-167424cb6282" extendedConfigurationObject="697120c3-9d63-41aa-a289-19a37b9cf394">
       <name>ЕдиницаИзмерения</name>
@@ -1611,7 +1546,6 @@
           </types>
         </typeExtension>
       </extension>
-      <type/>
     </attributes>
     <attributes uuid="1657cb72-7189-450b-afe5-063b308751c3" extendedConfigurationObject="e3b92dc5-025f-4f57-a745-ff7221d788ba">
       <name>Расположение</name>
@@ -1625,7 +1559,6 @@
           </types>
         </typeExtension>
       </extension>
-      <type/>
     </attributes>
     <attributes uuid="b84c65a7-304b-4e8d-85c0-a762e4a88c7f" extendedConfigurationObject="0f8b3c71-a597-4c8a-915a-bccde83035e2">
       <name>Комментарий</name>
@@ -1642,7 +1575,6 @@
           </stringQualifiers>
         </typeExtension>
       </extension>
-      <type/>
     </attributes>
   </tabularSections>
   <forms uuid="e5861e82-8e32-446c-aec9-0253881776be" extendedConfigurationObject="41c80aa8-4fc3-49dd-82ef-95812b6326fa">
